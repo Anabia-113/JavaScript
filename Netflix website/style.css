@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.top-btn .nav-btn{
+    background-color: red;
+    color: white;
+    font-weight: 100;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 6px;
+
+}
+.top .navbar .logo svg{
+    width: 150px;
+    height: 80px;
+    color: red;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top-section-contents{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.top-section-text{
+    text-align: center;
+}
+.top-section-contents .top-section-text h1{
+    font-size: 2rem;
+    color: white;
+    font-weight: 800;
+}
+.top-section-contents .top-section-text h5{
+    margin: 1rem 0 0 ;
+    font-size: 1.125rem;
+    color: white;
+    font-weight: 400;
+
+}
+.top-section-contents .top-section-text p{
+    margin: 1rem 0 0 ;
+    font-size: 1.125rem;
+    color: white;
+    font-weight: 400;
+
+}
+.top-section-btns input{
+    height: 20px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.top-section-btns button{
+    margin-top: 30px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: red;
+    color: white;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+.top{
+    border-bottom: 6px solid lightgray;
+    background-image: url(./images/section1.jpg);
+    /* opacity: 0.7; */
+    /* filter: brightness(100%); */
+    
+}
