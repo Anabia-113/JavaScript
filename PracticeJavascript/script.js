@@ -390,5 +390,20 @@ let btn1 = document.querySelector("#btn1");
 
 
 
+let myname = "Anabia";
+console.log(myname);
+console.log(typeof(myname));
+console.log(myname.toUpperCase());
+console.log(myname.toLowerCase());
+// console.log(myname.replace(0,  "c"));
+console.log(myname.slice(0, 3));
+console.log(myname.concat(23));
+
+
+
+
+
+
+
 
  
