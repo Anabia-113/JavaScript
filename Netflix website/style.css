@@ -72,3 +72,35 @@
     /* filter: brightness(100%); */
     
 }
+
+
+
+          /* ===================section2 styling======================== */
+.scndSection{
+    display: flex;
+    height: 80vh;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 6px solid lightgrey;
+}
+.scndSecDiv1{
+    width: 40%;
+}
+.scndSecDiv2{
+    position: relative;
+    
+}
+
+.scndSecDiv2 img{
+    width: 455px;
+    
+    z-index: 10;
+}
+.scndSecDiv2 video{
+    position: absolute;
+    right: 0;
+    width: 455px;
+}
+

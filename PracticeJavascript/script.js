@@ -390,14 +390,30 @@
 
 
 
-let myname = "Anabia";
-console.log(myname);
-console.log(typeof(myname));
-console.log(myname.toUpperCase());
-console.log(myname.toLowerCase());
-// console.log(myname.replace(0,  "c"));
-console.log(myname.slice(0, 3));
-console.log(myname.concat(23));
+// let myname = "Anabia";
+// console.log(myname);
+// console.log(typeof(myname));
+// console.log(myname.toUpperCase());
+// console.log(myname.toLowerCase());
+// // console.log(myname.replace(0,  "c"));
+// console.log(myname.slice(0, 3));
+// console.log(myname.concat(23));
+
+class Person {
+    sayHello() {
+        console.log("Hello");
+    }
+}
+
+class Friend extends Person {
+    sayHello() {
+        console.log("Hey");
+    }
+}
+
+var result = new Friend();
+result.sayHello();
+
 
 
 
