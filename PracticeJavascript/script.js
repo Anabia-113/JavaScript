@@ -399,8 +399,10 @@
 // console.log(myname.slice(0, 3));
 // console.log(myname.concat(23));
 
-
-
+var veggies = []
+veggies.push('parsley')
+veggies.push('carrot')
+console.log(veggies[2])
 
 
 
