@@ -404,25 +404,46 @@
                  //classes, objects 
 
 
-class ToyotaCar {
-    start(){
-        console.log("start");
-    }
-    stop(){
-        console.log("stop");
-    }
-    setBrand(brand){
-        this.brandName = brand;
-    }
-}
-let fortuner = new ToyotaCar();
-let lexus = new ToyotaCar();
-fortuner.setBrand("fortuner");
-lexus.setBrand("lexus");
+// class ToyotaCar {
+//     start(){
+//         console.log("start");
+//     }
+//     stop(){
+//         console.log("stop");
+//     }
+//     setBrand(brand){
+//         this.brandName = brand;
+//     }
+// }
+// let fortuner = new ToyotaCar();
+// let lexus = new ToyotaCar();
+// fortuner.setBrand("fortuner");
+// lexus.setBrand("lexus");
 
 
 
                            //inheritance
+
+class Person{
+    constructor(){
+        this.species = "homo sapiens";
+    }
+    eat(){
+        console.log("eat");
+    }
+    sleep(){
+        console.log("sleep");
+    }
+    work(){
+        console.log("work");
+    }
+}
+class Engineer extends Person{
+    work(){
+        console.log("hard at work");
+    }
+}
+let anabiaObj = new Engineer();
 
 
 
