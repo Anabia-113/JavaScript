@@ -355,19 +355,19 @@
 // btn1.removeEventListener("click", handler3);
 
 
-let modeBtn = document.querySelector("#mode");
-let currMode = "light";
-modeBtn.addEventListener("click", ()=>{
-    if(currMode==="light"){
-        currMode= "dark";
-        document.querySelector("body").style.backgroundColor = "black";
-    }
-    else{
-        currMode= "light";
-        document.querySelector("body").style.backgroundColor = "white";
-    }
-    console.log(currMode);
-});
+// let modeBtn = document.querySelector("#mode");
+// let currMode = "light";
+// modeBtn.addEventListener("click", ()=>{
+//     if(currMode==="light"){
+//         currMode= "dark";
+//         document.querySelector("body").style.backgroundColor = "black";
+//     }
+//     else{
+//         currMode= "light";
+//         document.querySelector("body").style.backgroundColor = "white";
+//     }
+//     console.log(currMode);
+// });
 // let number1 = 44;
 // let number2 = 12;
 // let number3 = 44;
@@ -398,6 +398,32 @@ modeBtn.addEventListener("click", ()=>{
 // // console.log(myname.replace(0,  "c"));
 // console.log(myname.slice(0, 3));
 // console.log(myname.concat(23));
+
+
+
+                 //classes, objects 
+
+
+class ToyotaCar {
+    start(){
+        console.log("start");
+    }
+    stop(){
+        console.log("stop");
+    }
+    setBrand(brand){
+        this.brandName = brand;
+    }
+}
+let fortuner = new ToyotaCar();
+let lexus = new ToyotaCar();
+fortuner.setBrand("fortuner");
+lexus.setBrand("lexus");
+
+
+
+                           //inheritance
+
 
 
 
