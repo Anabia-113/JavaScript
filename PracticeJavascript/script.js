@@ -424,26 +424,53 @@
 
                            //inheritance
 
-class Person{
-    constructor(){
-        this.species = "homo sapiens";
+// class Person{
+//     constructor(){
+//         this.species = "homo sapiens";
+//     }
+//     eat(){
+//         console.log("eat");
+//     }
+//     sleep(){
+//         console.log("sleep");
+//     }
+//     work(){
+//         console.log("work");
+//     }
+// }
+// class Engineer extends Person{
+//     work(){
+//         console.log("hard at work");
+//     }
+// }
+// let anabiaObj = new Engineer();
+
+                             //practice inheritance
+
+let data = "secret data";
+
+class User{
+    constructor(name, email){
+        this.name = name;
+        this.email = email;
     }
-    eat(){
-        console.log("eat");
-    }
-    sleep(){
-        console.log("sleep");
-    }
-    work(){
-        console.log("work");
+    viewData(){
+        console.log(data);
+
     }
 }
-class Engineer extends Person{
-    work(){
-        console.log("hard at work");
+class Admin extends User{
+    constructor(name, email){
+        super(name, email);
+    }
+    editData(){
+        data = "edited secret data";
     }
 }
-let anabiaObj = new Engineer();
+
+
+let std1 = new User("anabia", "anabia@gmail.com");
+let admin = new Admin("baig", "baig@gmail.com");
 
 
 
