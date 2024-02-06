@@ -583,18 +583,29 @@
 
 //------------------------------------------Async/ Await-----------IIFE-------------------------------------------------
 
-function api(){
-    return new Promise((resolve, reject) =>{
-        setTimeout(() =>{
-            console.log("weather data retrived");
-            resolve(200);
-        }, 5000);
-    });
-};
-(async function(){
-    await api();
-    await api();
+// function api(){
+//     return new Promise((resolve, reject) =>{
+//         setTimeout(() =>{
+//             console.log("weather data retrived");
+//             resolve(200);
+//         }, 5000);
+//     });
+// };
+// (async function(){
+//     await api();
+//     await api();
 
-})();
+// })();
+
+
+//------------------------------------------------------------fetch Api-----------------------------------------------------
+
+let URL = "https://cat-fact.herokuapp.com/facts";
+
+const getFacts = async() =>{
+    let response = fetch(URL);
+    console.log(response);
+
+}
 
 
