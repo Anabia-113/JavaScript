@@ -602,11 +602,16 @@
 // }
 
 let URL = "https://cat-fact.herokuapp.com/facts";
+let para1 = document.querySelector("#para");
+let btn = document.querySelector("#btn");
+
+
 
 const getFacts = async () => {
     console.log("getting data");
     let response = await fetch(URL);
     let data = await response.json();
-    console.log(data);
+    para1.innerText = data[2].text;
 };
+btn.addEventListener("click", getFacts);
 // getFacts();
