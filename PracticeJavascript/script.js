@@ -536,9 +536,23 @@
 
 const getPromise = () =>{
    return new Promise((resolve, reject) =>{
-        console.log("this is a promise");
-        // resolve("success");
-        reject("error occured");
+        setTimeout(() =>{
+            console.log("data1");
+            resolve("success data1");
+        }, 2000);
+        
+        
+    });
+
+};
+const getPromise2 = () =>{
+   return new Promise((resolve, reject) =>{
+        setTimeout(() =>{
+            console.log("data2");
+            resolve("success data2");
+        }, 2000);
+        
+        
     });
 
 };
