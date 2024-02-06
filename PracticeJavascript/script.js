@@ -401,7 +401,7 @@
 
 
 
-                 //classes, objects 
+                 // lecture 11) classes, objects 
 
 
 // class ToyotaCar {
@@ -447,30 +447,118 @@
 
                              //practice inheritance
 
-let data = "secret data";
+// let data = "secret data";
 
-class User{
-    constructor(name, email){
-        this.name = name;
-        this.email = email;
-    }
-    viewData(){
-        console.log(data);
+// class User{
+//     constructor(name, email){
+//         this.name = name;
+//         this.email = email;
+//     }
+//     viewData(){
+//         console.log(data);
 
-    }
-}
-class Admin extends User{
-    constructor(name, email){
-        super(name, email);
-    }
-    editData(){
-        data = "edited secret data";
-    }
-}
+//     }
+// }
+// class Admin extends User{
+//     constructor(name, email){
+//         super(name, email);
+//     }
+//     editData(){
+//         data = "edited secret data";
+//     }
+// }
 
 
-let std1 = new User("anabia", "anabia@gmail.com");
-let admin = new Admin("baig", "baig@gmail.com");
+// let std1 = new User("anabia", "anabia@gmail.com");
+// let admin = new Admin("baig", "baig@gmail.com");
+
+
+                        //lecture 12) callbacks, promises, Async Await
+                        //callbacks examples
+
+// console.log("anabia");
+// console.log("anabia");
+// console.log("anabia");
+
+
+// setTimeout(() =>{
+//     console.log("hello")
+// }, 5000);
+
+// console.log("anabia");
+
+// function getData(dataId){
+//     setTimeout(() =>{
+//         console.log("data", dataId )
+//     }, 2000);
+// };
+
+                //callback hell 
+
+// function getData(dataId, getNextData){
+//     setTimeout(() =>{
+//         console.log("data", dataId );
+//         getNextData();
+//     }, 2000);
+// };
+// getData(1, () =>{
+//     console.log("getting data 2...");
+//     getData(2, () =>{
+//         console.log("getting data 3..");
+//         getData(3, () =>{
+//             console.log("getting data 4...");
+//         });
+//     });
+// });
+
+                  //promises and promises chaining
+                  //used to overcome callback hell problem
+// let promise = new Promise((resolve, reject) =>{
+//     console.log("this is a promise");
+//     reject("error occured");
+// });
+//  function getData(dataId, getNextData){
+//    return new Promise((resolve, reject) =>{
+//     setTimeout(() =>{
+//         // console.log("data", dataId );
+//         reject("error");
+//         if(getNextData){
+//             getNextData();
+
+//         };
+        
+//     }, 8000);
+
+
+//     });
+    
+// };
+
+const getPromise = () =>{
+   return new Promise((resolve, reject) =>{
+        console.log("this is a promise");
+        // resolve("success");
+        reject("error occured");
+    });
+
+};
+let promise = getPromise();
+promise.then((res) =>{
+    console.log("fullfilled", res)
+});
+promise.catch((err) =>{
+    console.log(" not fullfilled", err)
+
+})
+
+   
+
+
+
+
+
+
+
 
 
 
