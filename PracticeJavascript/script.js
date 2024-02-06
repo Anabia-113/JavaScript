@@ -483,7 +483,6 @@
 // let std1 = new User("anabia", "anabia@gmail.com");
 // let admin = new Admin("baig", "baig@gmail.com");
 
-
 //---------------------------------------------------------------------------------------------------------------------
 
 //lecture 12) callbacks, promises, Async Await
@@ -511,8 +510,6 @@
 //callback hell
 //--------------------------------------------------------------------------------------------------------------
 
-
-
 // function getData(dataId, getNextData){
 //     setTimeout(() =>{
 //         console.log("data", dataId );
@@ -534,7 +531,6 @@
 //promises and promises chaining
 //used to overcome callback hell problem
 //----------------------------------------------------------------------------
-
 
 // let promise = new Promise((resolve, reject) =>{
 //     console.log("this is a promise");
@@ -597,15 +593,20 @@
 
 // })();
 
-
 //------------------------------------------------------------fetch Api-----------------------------------------------------
+
+// async function getData() {
+//   let myURL = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+//   let data = await myURL.json();
+//   console.log(data);
+// }
 
 let URL = "https://cat-fact.herokuapp.com/facts";
 
-const getFacts = async() =>{
-    let response = fetch(URL);
-    console.log(response);
-
-}
-
-
+const getFacts = async () => {
+    console.log("getting data")
+    let response = await fetch(URL);
+    let data= await response.json()
+    console.log(data);
+};
+getFacts()
