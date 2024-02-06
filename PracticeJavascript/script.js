@@ -7,7 +7,7 @@
 // };
 // console.log(typeof product);
 
-//arthemeatic operators
+//arthemeatic operators-----------------------------------------------------------------------------------------------------------
 
 // let a = 2;
 // let b = 3;
@@ -19,14 +19,14 @@
 // console.log("mod = ", a%b);
 // console.log("exp = ", a**b);
 
-//unary operator
+//unary operator-------------------------------------------------------------------------------------------------------------------
 
 // a++;
 // console.log("increment operator = ", a);
 // b--;
 // console.log("decrement = ", b);
 
-//Assignment operator +=, -=, %=, **=
+//Assignment operator +=, -=, %=, **= ---------------------------------------------------------------------------------------------
 
 // let a = 3;
 // let b = 2;
@@ -34,21 +34,21 @@
 // a +=4;
 // console.log("a = ", a);
 
-//comparison operator
+//comparison operator----------------------------------------------------------------------------------------------------------------
 // let a = 2;
 // let b = 3;
 // console.log("a==b", a==b);
 // console.log("a!=b", a!=b);
 // console.log("2<3", a<b);
 
-//Logical operator
+//Logical operator--------------------------------------------------------------------------------------------------------------------
 // let a = 2;
 // let b = 3;
 // let condition1 = a < b;
 // let condition2 = a ==2;
 // console.log("condition1 && condition2 =", condition1 && condition2)
 
-//Conditional statement
+//Conditional statement---------------------------------------------------------------------------------------------------------------
 // let age = 10;
 // if(age >= 18){
 //     console.log("can vote");
@@ -70,7 +70,7 @@
 //     console.log("placed in grade F");
 // }
 
-//for loop
+//for loop-----------------------------------------------------------------------------------------------------------------------
 // let sum = 0;
 // for(let i = 1; i<=10; i++){
 //     sum = sum + i;
@@ -79,7 +79,7 @@
 // console.log("sum is", sum);
 
 //infinite loop
-//while loop
+//while loop----------------------------------------------------------------------------------------------------------------------
 // i = 1;
 // while(i<=5){
 //     console.log("i = ", i);
@@ -87,7 +87,7 @@
 
 // }
 
-//do-while loop
+//do-while loop---------------------------------------------------------------------------------------------------------------------
 // i = 1;
 // do{
 //     console.log("i = ", i);
@@ -95,7 +95,7 @@
 
 // }while(i<=5);
 
-//for-of loop
+//for-of loop---------------------------------------------------------------------------------------------------------------------------
 // let str = "hi";
 // let size =0;
 // for (let i of str){
@@ -104,7 +104,7 @@
 // }
 // console.log("total size of characters is: ",size)
 
-//for in loop
+//for in loop----------------------------------------------------------------------------------------------------------------------
 // let std = {
 //     name: "anabia",
 //     age: 23,
@@ -115,20 +115,20 @@
 //     console.log("key =", key, "value =", std[key]);
 // }
 
-//Print numbers from 0-100
+//Print numbers from 0-100---------------------------------------------------------------------------------------------------------
 
 // for(i= 0; i<=100; i++){
 //     console.log(i);
 // }
 
-//Print even numbers from 0-100
+//Print even numbers from 0-100------------------------------------------------------------------------------------------------------
 // for(i= 0; i<=100; i++){
 //     if(i%2==0){
 //         console.log("num =", i);
 //     }
 // }
 
-//guess number game
+//guess number game----------------------------------------------------------------------------------------------------------------
 // let gameNum = 20;
 // let userNum = prompt("Guess the number: ");
 // while(userNum !=gameNum){
@@ -137,7 +137,7 @@
 // }
 // console.log("yoo! You entered the right number");
 
-//strings in js and template literals
+//strings in js and template literals-------------------------------------------------------------------------------------------------
 // let str = "anabia";
 // console.log(str.length);
 
@@ -148,12 +148,12 @@
 // let output = `the cost of ${obj.item} is ${obj.price} rupees`;
 // console.log(output);
 
-//Methods in strings
+//Methods in strings--------------------------------------------------------------------------------------------------------------------
 // let fullName = prompt("enter your fullname without spaces");
 // let userName = "@"+ fullName  + fullName.length;
 // console.log(userName);
 
-//Arrays in JS
+//Arrays in JS---------------------------------------------------------------------------------------------------------------------------
 // let subjects = ["maths", "english", "urdu", "islamiat"];
 // for(i = 0; i< subjects.length; i++){
 //     console.log(subjects[i]);
@@ -170,7 +170,7 @@
 // let avg = sum / marks.length;
 // console.log(`average marks of the class = ${avg}`)
 
-//Practice question
+//Practice question--------------------------------------------------------------------------------------------------------------
 
 // let items = [250, 349, 300, 50];
 // for(let i = 0; i< items.length; i++){
@@ -213,7 +213,7 @@
 // companies.splice(2, 1, "Ola");
 // companies.push("amazon");
 
-//functions in JS
+//functions in JS--------------------------------------------------------------------------------------------------------------------
 // function sum(a, b){
 //     return a + b;
 // }
@@ -283,7 +283,11 @@
 // })
 // console.log("the factorial is = ", factorial);
 
+//---------------------------------------------------------------------------------------------------------------------------------------
+
 //DOM  lecture 6
+
+//---------------------------------------------------------------------------------------------------------------------------------------
 // let paras = document.getElementsByTagName("p");
 // console.log(paras);
 // let heading = document.querySelector("h1");
@@ -323,7 +327,7 @@
 // let h1 = document.querySelector("h1");
 // h1.remove();
 
-//Events
+//Events------------------------------------------------------------------------------------------------------------------------------
 // let btn1 = document.querySelector("#btn1");
 // btn1.onclick = () => {
 //   console.log("btn1 was clicked");
@@ -354,6 +358,7 @@
 
 // btn1.removeEventListener("click", handler3);
 
+//-----------------------------------------------------------------------------------------------------------------------------------
 
 // let modeBtn = document.querySelector("#mode");
 // let currMode = "light";
@@ -368,6 +373,8 @@
 //     }
 //     console.log(currMode);
 // });
+
+//-------------------------------------------------------------------------------------------------------------------------------------
 // let number1 = 44;
 // let number2 = 12;
 // let number3 = 44;
@@ -388,8 +395,6 @@
 //     console.log(number+2);
 // }
 
-
-
 // let myname = "Anabia";
 // console.log(myname);
 // console.log(typeof(myname));
@@ -399,10 +404,11 @@
 // console.log(myname.slice(0, 3));
 // console.log(myname.concat(23));
 
+//------------------------------------------------------------------------------------------------------------------------
 
+// lecture 11) classes, objects
 
-                 // lecture 11) classes, objects 
-
+//-------------------------------------------------------------------------------------------------------------------------
 
 // class ToyotaCar {
 //     start(){
@@ -420,9 +426,11 @@
 // fortuner.setBrand("fortuner");
 // lexus.setBrand("lexus");
 
+//----------------------------------------------------------------------------------------------------------------------
 
+//inheritance
 
-                           //inheritance
+//----------------------------------------------------------------------------------------------------------------------
 
 // class Person{
 //     constructor(){
@@ -445,7 +453,11 @@
 // }
 // let anabiaObj = new Engineer();
 
-                             //practice inheritance
+//----------------------------------------------------------------------------------------------------------------------------
+
+//practice inheritance
+
+//----------------------------------------------------------------------------------------------------------------------------
 
 // let data = "secret data";
 
@@ -468,18 +480,20 @@
 //     }
 // }
 
-
 // let std1 = new User("anabia", "anabia@gmail.com");
 // let admin = new Admin("baig", "baig@gmail.com");
 
 
-                        //lecture 12) callbacks, promises, Async Await
-                        //callbacks examples
+//---------------------------------------------------------------------------------------------------------------------
+
+//lecture 12) callbacks, promises, Async Await
+//callbacks examples
+
+//---------------------------------------------------------------------------------------------------------------------
 
 // console.log("anabia");
 // console.log("anabia");
 // console.log("anabia");
-
 
 // setTimeout(() =>{
 //     console.log("hello")
@@ -493,7 +507,11 @@
 //     }, 2000);
 // };
 
-                //callback hell 
+//-------------------------------------------------------------------------------------------------------------
+//callback hell
+//--------------------------------------------------------------------------------------------------------------
+
+
 
 // function getData(dataId, getNextData){
 //     setTimeout(() =>{
@@ -511,8 +529,13 @@
 //     });
 // });
 
-                  //promises and promises chaining
-                  //used to overcome callback hell problem
+//----------------------------------------------------------------------------
+
+//promises and promises chaining
+//used to overcome callback hell problem
+//----------------------------------------------------------------------------
+
+
 // let promise = new Promise((resolve, reject) =>{
 //     console.log("this is a promise");
 //     reject("error occured");
@@ -526,62 +549,52 @@
 //             getNextData();
 
 //         };
-        
+
 //     }, 8000);
 
-
 //     });
-    
+
 // };
 
-const getPromise = () =>{
-   return new Promise((resolve, reject) =>{
+// const getPromise = () => {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       console.log("data1");
+//       resolve("success data1");
+//     }, 2000);
+//   });
+// };
+// const getPromise2 = () => {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       console.log("data2");
+//       resolve("success data2");
+//     }, 2000);
+//   });
+// };
+// console.log("fetching data 1...");
+// getPromise().then((res) => {
+//   console.log("fullfilled data 1", res);
+//   console.log("fetching data 2...");
+//   getPromise2().then((res) => {
+//     console.log("fullfilled data 2", res);
+//   });
+// });
+
+//------------------------------------------Async/ Await------------------------------------------------------------
+
+function api(){
+    return new Promise((resolve, reject) =>{
         setTimeout(() =>{
-            console.log("data1");
-            resolve("success data1");
-        }, 2000);
-        
-        
+            console.log("weather data retrived");
+            resolve(200);
+        }, 5000);
     });
-
 };
-const getPromise2 = () =>{
-   return new Promise((resolve, reject) =>{
-        setTimeout(() =>{
-            console.log("data2");
-            resolve("success data2");
-        }, 2000);
-        
-        
-    });
+async function getWeatherData(){
+    await api();
+    await api();
 
-};
-console.log("fetching data 1...")
-getPromise().then((res) =>{
-    console.log("fullfilled data 1", res);
-    console.log("fetching data 2...");
-getPromise2().then((res) =>{
-    console.log("fullfilled data 2", res);
-
-});
-
-});
+}
 
 
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
