@@ -557,16 +557,16 @@ const getPromise2 = () =>{
 
 };
 console.log("fetching data 1...")
-let promise = getPromise();
-promise.then((res) =>{
-    console.log("fullfilled data 1", res)
-});
-console.log("fetching data 2...");
-let promise2 = getPromise();
-promise2.then((res) =>{
+getPromise().then((res) =>{
+    console.log("fullfilled data 1", res);
+    console.log("fetching data 2...");
+getPromise2().then((res) =>{
     console.log("fullfilled data 2", res);
 
 });
+
+});
+
 
    
 
