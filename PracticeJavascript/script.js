@@ -556,14 +556,17 @@ const getPromise2 = () =>{
     });
 
 };
+console.log("fetching data 1...")
 let promise = getPromise();
 promise.then((res) =>{
-    console.log("fullfilled", res)
+    console.log("fullfilled data 1", res)
 });
-promise.catch((err) =>{
-    console.log(" not fullfilled", err)
+console.log("fetching data 2...");
+let promise2 = getPromise();
+promise2.then((res) =>{
+    console.log("fullfilled data 2", res);
 
-})
+});
 
    
 
