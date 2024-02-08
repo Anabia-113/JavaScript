@@ -625,22 +625,37 @@
 
 //=======================================================================================================================================
 
-//practice Q1
-let  str = "anabia";
-let num = 2;
-console.log(str+num);
-//practice Q2
-console.log(typeof(str+num));
-//practice Q3
-const obj = {
-    firstName: "Anabia",
-    lastName: "Baig",
-    age: 23
+// //practice Q1
+// let  str = "anabia";
+// let num = 2;
+// console.log(str+num);
+// //practice Q2
+// console.log(typeof(str+num));
+// //practice Q3
+// const obj = {
+//     firstName: "Anabia",
+//     lastName: "Baig",
+//     age: 23
 
+// }
+// console.log(obj);
+// //practice Q4
+// obj['firstName'] = "ehtisham";
+// console.log(obj.firstName);
+
+
+//-------------------------------------------------conditional statements-----------------------------------------------------------------
+
+let a = prompt("Enter your age");
+a = Number.parseInt(a);
+if(a >0){
+    alert("valid");
+}else{
+    alert("invalid age");
 }
-console.log(obj);
-//practice Q4
-obj['firstName'] = "ehtisham";
-console.log(obj.firstName);
+
+
+
+
 
 
