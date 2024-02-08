@@ -647,7 +647,7 @@
 //-------------------------------------------------conditional statements-----------------------------------------------------------------
 
 let a = prompt("Enter your age");
-a = Number.parseInt(a);
+a = parseInt(a);
 if(a >0){
     alert("valid");
 }else{
