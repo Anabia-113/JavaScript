@@ -601,17 +601,46 @@
 //   console.log(data);
 // }
 
-let URL = "https://cat-fact.herokuapp.com/facts";
-let para1 = document.querySelector("#para");
-let btn = document.querySelector("#btn");
 
 
 
-const getFacts = async () => {
-    console.log("getting data");
-    let response = await fetch(URL);
-    let data = await response.json();
-    para1.innerText = data[2].text;
-};
-btn.addEventListener("click", getFacts);
-// getFacts();
+// let URL = "https://cat-fact.herokuapp.com/facts";
+// let para1 = document.querySelector("#para");
+// let btn = document.querySelector("#btn");
+
+
+
+// const getFacts = async () => {
+//     console.log("getting data");
+//     let response = await fetch(URL);
+//     let data = await response.json();
+//     para1.innerText = data[2].text;
+// };
+// btn.addEventListener("click", getFacts);
+
+
+//=======================================================================================================================================
+
+//--------------------------------------------------------Practice-set chapter 1---------------------------------------------------------
+
+//=======================================================================================================================================
+
+//practice Q1
+let  str = "anabia";
+let num = 2;
+console.log(str+num);
+//practice Q2
+console.log(typeof(str+num));
+//practice Q3
+const obj = {
+    firstName: "Anabia",
+    lastName: "Baig",
+    age: 23
+
+}
+console.log(obj);
+//practice Q4
+obj['firstName'] = "ehtisham";
+console.log(obj.firstName);
+
+
