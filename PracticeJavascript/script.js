@@ -744,10 +744,12 @@ console.log(age>18? "you can drive":"you cant drive");*/
 
 
 //-------------------------------------------------------loops---------------------------------------------------------------------
-
-for (let i=0; i< 10; i++){
-    console.log(i);
+let sum = 0;
+let n = prompt("Enter natural numbers")
+for (let i=0; i<n; i++){
+    sum+= i+1;
 }
+console.log("sum of ", n, "is", sum)
 
 
 
