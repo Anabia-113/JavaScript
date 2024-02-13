@@ -738,9 +738,17 @@ if(num%2==0 || num%3==0){
 }*/
 
 //question5
-let age = prompt("What is your age");
+/*let age = prompt("What is your age");
 age = parseInt(age);
-console.log(age>18? "you can drive":"you cant drive");
+console.log(age>18? "you can drive":"you cant drive");*/
+
+
+//-------------------------------------------------------loops---------------------------------------------------------------------
+
+for (let i=0; i< 10; i++){
+    console.log(i);
+}
+
 
 
 
