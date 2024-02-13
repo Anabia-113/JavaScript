@@ -655,11 +655,12 @@
 // }
 
 
-let age = 30;
-console.log("you", age>18? "can vote": "cannot vote")
+// let age = 30;
+// console.log("you", age>18? "can vote": "cannot vote")
 
 
-//=====================switch statements========================
+//=====================switch statements===========================================================================================
+
 // let expr = "grapes"
 // switch (expr) {
 //     case "grapes":
@@ -683,6 +684,73 @@ console.log("you", age>18? "can vote": "cannot vote")
 //   }
   
 //   console.log("Is there anything else you'd like?");
+
+
+
+//======================================================================================================================================
+//=========================================================Chapter 2 practice set=======================================================
+//======================================================================================================================================
+
+
+//question1
+/*let age = prompt("What is your age");
+age = parseInt(age);
+if(age>10 && age<20){
+    console.log("yes the age lies between 10 and 20");
+}else{
+    console.log("age doesnt lies between 10 and 20 ");
+}
+*/
+
+//question2
+/*let age = prompt("What is your age");
+age = parseInt(age);
+switch(age){
+    case 12:
+        console.log("your age is 12");
+        break;
+    case 13:
+        console.log("your age is 13");
+         break;
+    case 14:
+        console.log("your age is 14");
+        break;
+    default:
+        console.log("not applicable");
+}*/
+
+//question 3
+/*let num = prompt("What is the number");
+num = parseInt(num);
+if(num%2==0 && num%3==0){
+    console.log("number you entered its divisible by 2 and 3");
+}else{
+    console.log("no the number you have entered is not divisible by 2 and 3");
+}*/
+
+//qestion4
+/*let num = prompt("What is the number");
+num = parseInt(num);
+if(num%2==0 || num%3==0){
+    console.log("number you entered its divisible by 2 or 3");
+}else{
+    console.log("no the number you have entered is not divisible by 2 or 3");
+}*/
+
+//question5
+let age = prompt("What is your age");
+age = parseInt(age);
+console.log(age>18? "you can drive":"you cant drive");
+
+
+
+
+
+
+
+
+
+
 
 
 
