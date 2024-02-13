@@ -744,12 +744,28 @@ console.log(age>18? "you can drive":"you cant drive");*/
 
 
 //-------------------------------------------------------loops---------------------------------------------------------------------
-let sum = 0;
+//-----------------------------------------------for loop
+/*let sum = 0;
 let n = prompt("Enter natural numbers")
 for (let i=0; i<n; i++){
     sum+= i+1;
 }
-console.log("sum of ", n, "is", sum)
+console.log("sum of ", n, "is", sum)*/
+
+//----------------------------for in loop ------used if we want key values
+
+/*let obj = {
+    fullName : "Anabia Baig",
+    fatherName: "Aslam khan",
+    age: 23
+
+}
+for(let a in obj){
+    console.log(a, "is" , obj[a]);
+
+}*/
+
+
 
 
 
