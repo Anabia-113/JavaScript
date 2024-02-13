@@ -776,11 +776,12 @@ for(let a in obj){
 let n = prompt("Enter a number");
 n = parseInt(n);
 i= 0;
-while(i<n){
+
+do{
     console.log(i);
     i++;
 
-}
+}while(i<n)
 
 
 
