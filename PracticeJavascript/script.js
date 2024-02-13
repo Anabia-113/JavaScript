@@ -767,8 +767,17 @@ for(let a in obj){
 
 //----------------------------for of loop ------used if we want  values and is iterable
 
-for(let a of "Anabia"){
-    console.log(a);
+// for(let a of "Anabia"){
+//     console.log(a);
+// }
+
+
+//------------------------------while and do-while loop
+let n = prompt("Enter a number");
+n = parseInt(n);
+i= 0;
+while(i<n){
+    console.log(i);
 }
 
 
