@@ -778,6 +778,8 @@ n = parseInt(n);
 i= 0;
 while(i<n){
     console.log(i);
+    i++;
+
 }
 
 
