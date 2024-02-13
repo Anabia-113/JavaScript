@@ -775,7 +775,7 @@ for(let a in obj){
 //------------------------------while and do-while loop
 let n = prompt("Enter a number");
 n = parseInt(n);
-i= 0;
+i= 10;
 
 do{
     console.log(i);
