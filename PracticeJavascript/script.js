@@ -855,11 +855,12 @@ console.log("you entered correct number")*/
 console.log(mean(1,2,3,4));*/
 
 //--------------------------------------------------------------Introduction to strings----------------------------------------------------
-let name = "anabia";
+/*let name = "anabia";
 console.log(name.length);
 
 let a= "ana\rbia"
-console.log(a)
+console.log(a)*/
+
 
 
 
