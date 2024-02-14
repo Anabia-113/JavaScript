@@ -862,10 +862,15 @@ let a= "ana\rbia"
 console.log(a)*/
 
 let name = "anabia";
+let friend = "noreen";
+let name2 = "       fatima       "
 console.log(name.toUpperCase())
 console.log(name.toLowerCase())
 console.log(name.slice(2, 3))
 console.log(name.slice(3))
+console.log(name.replace("ana", "nana"))
+console.log(name.concat(" is a friend of ", friend))
+console.log(name2.trim())
 
 
 
