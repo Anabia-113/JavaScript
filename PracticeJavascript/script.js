@@ -791,10 +791,10 @@ do{
 }
 console.log(sum());*/
 
-const sum = (a,b)=>{
+/*const sum = (a,b)=>{
    return  a+b;
 }
-console.log(sum(2,2));
+console.log(sum(2,2));*/
 
 
 
@@ -806,6 +806,42 @@ console.log(sum(2,2));
 }
 let v = hello()
 console.log(hello());*/
+
+
+
+//========================================================================================================================================
+//======================================================Practice set chapter 3============================================================
+//========================================================================================================================================
+
+
+//Question 1
+
+/*let marks = {
+    "harry":45,
+    "rohan":43,
+    "ali":34
+
+
+}
+for(let i=0; i<Object.keys(marks).length;i++){
+    console.log(" The marks of " + Object.keys(marks)[i] + " are " + marks[Object.keys(marks)[i]] );
+}*/
+
+//Question 2
+/*let marks = {
+    "harry":45,
+    "rohan":43,
+    "ali":34
+}
+
+for(let key in marks){
+    console.log("the marks of "+ key + " are " + marks[key])
+}*/
+
+//Question 3
+
+let number = 20;
+
 
 
 
