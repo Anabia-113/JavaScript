@@ -861,7 +861,11 @@ console.log(name.length);
 let a= "ana\rbia"
 console.log(a)*/
 
-
+let name = "anabia";
+console.log(name.toUpperCase())
+console.log(name.toLowerCase())
+console.log(name.slice(2, 3))
+console.log(name.slice(3))
 
 
 
