@@ -854,12 +854,14 @@ console.log("you entered correct number")*/
 }
 console.log(mean(1,2,3,4));*/
 
-//--------------------------------------------------------------Introduction to strings----------------------------------------------------
+//-------------------------------------------------------------- strings in js----------------------------------------------------
 /*let name = "anabia";
 console.log(name.length);
 
 let a= "ana\rbia"
 console.log(a)*/
+
+
 
 
 
