@@ -840,13 +840,16 @@ for(let key in marks){
 
 //Question 3
 
-let number = 20;
+/*let number = 20;
 
 let i;
 while(i!= number){
     i = prompt("Enter a number")
 }
-console.log("you entered correct number")
+console.log("you entered correct number")*/
+
+//Question 4
+
 
 
 
