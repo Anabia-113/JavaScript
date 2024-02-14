@@ -842,6 +842,12 @@ for(let key in marks){
 
 let number = 20;
 
+let i;
+while(i!= number){
+    i = prompt("Enter a number")
+}
+console.log("you entered correct number")
+
 
 
 
