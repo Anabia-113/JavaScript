@@ -752,7 +752,7 @@ for (let i=0; i<n; i++){
 }
 console.log("sum of ", n, "is", sum)*/
 
-//----------------------------for in loop ------used if we want key values
+//----------------------------for in loop ------used if we want key in an object
 
 /*let obj = {
     fullName : "Anabia Baig",
@@ -773,7 +773,7 @@ for(let a in obj){
 
 
 //------------------------------while and do-while loop
-let n = prompt("Enter a number");
+/*let n = prompt("Enter a number");
 n = parseInt(n);
 i= 10;
 
@@ -781,7 +781,33 @@ do{
     console.log(i);
     i++;
 
-}while(i<n)
+}while(i<n)*/
+
+
+//-----------------------------------functions in javascript------------------------------------------------------------------
+
+/*function sum(){
+    return 8+6;
+}
+console.log(sum());*/
+
+const sum = (a,b)=>{
+   return  a+b;
+}
+console.log(sum(2,2));
+
+
+
+
+
+/*const hello = ()=>{
+    console.log("hello");
+    return "hi"
+}
+let v = hello()
+console.log(hello());*/
+
+
 
 
 
