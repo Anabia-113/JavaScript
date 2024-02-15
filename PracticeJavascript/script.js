@@ -886,9 +886,18 @@ for(let i=0; i<friend.length; i++){
 console.log(str.length);*/
 
 //Question 2
-const sentence = "My name is anabia";
+//includes function
+/*const sentence = "My name is anabia";
 const word = "anabia";
-console.log(`the word ${word} ${sentence.includes(word)? `is`: `is not`} in the sentence`)
+console.log(`the word ${word} ${sentence.includes(word)? `is`: `is not`} in the sentence`)*/
+
+//ends with and starts with function
+/*let str2 = "noreen is my friend?";
+console.log(str2.length);
+console.log(str2.endsWith("?", 20));
+console.log(str2.startsWith("anabia"))*/
+
+
 
 
 
