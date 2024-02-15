@@ -907,8 +907,18 @@ let amount = str.slice("please give me".length);
 console.log(amount);*/
 
 //Question 5
-let str = "anabia"
-console.log(str.replace("b", "d"))
+/*let str = "anabia"
+console.log(str.replace("b", "d"))*/
+
+
+//---------------------------------------------------------Arrays---------------------------------------------------------------------
+let arr = [23, 34, 45, 67, 56];
+console.log(arr.length);
+console.log(arr[2]);
+arr[0] = 90;
+console.log(arr);
+
+
 
 
 
