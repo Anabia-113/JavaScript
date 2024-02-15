@@ -934,6 +934,8 @@ console.log(arr.shift());
 console.log(arr)
 console.log(arr.unshift(23));
 console.log(arr)*/
+delete arr[3];
+console.log(arr);
 
 
 
