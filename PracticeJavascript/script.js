@@ -888,7 +888,7 @@ console.log(str.length);*/
 //Question 2
 const sentence = "My name is anabia";
 const word = "anabia";
-console.log(`the word ${name} ${sentence.includes(word)? `is`: `is not`} in the sentence`)
+console.log(`the word ${word} ${sentence.includes(word)? `is`: `is not`} in the sentence`)
 
 
 
