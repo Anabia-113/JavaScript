@@ -872,6 +872,10 @@ console.log(name.replace("ana", "nana"))
 console.log(name.concat(" is a friend of ", friend))
 console.log(name2.trim())
 
+for(let i=0; i<friend.length; i++){
+    console.log(friend[i])
+}
+
 
 
 
