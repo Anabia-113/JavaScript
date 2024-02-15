@@ -936,6 +936,19 @@ console.log(arr.unshift(23));
 console.log(arr)*/
 delete arr[3];
 console.log(arr);
+let arr2 = [1, 7, 8, 9];
+console.log(arr.concat(arr2));
+const compare = (a, b)=>{
+    return a-b;
+}
+let arr3 = [3, 5, 6, 0, 77, 11]
+arr3.sort(compare)
+console.log(arr3);
+console.log(arr3.reverse());
+
+let arr4 = [77, 66, 55, 44, 33, 22]
+console.log(arr4.splice(2, 2,444,555))
+console.log(arr4);
 
 
 
