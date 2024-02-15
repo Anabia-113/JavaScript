@@ -897,6 +897,10 @@ console.log(str2.length);
 console.log(str2.endsWith("?", 20));
 console.log(str2.startsWith("anabia"))*/
 
+//Question 3
+let str = "ANABIA BAIG";
+console.log(str.toLocaleLowerCase());
+
 
 
 
