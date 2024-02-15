@@ -924,7 +924,20 @@ for(let i = 0; i<arr.length; i++){
 
 //-----------------------------------------Array methods
 let arr = [2, 3, 4, 5, 6];
-console.log(arr.toString())
+// console.log(arr.toString())
+// console.log(arr.join("e"))
+/*console.log(arr.push(23));
+console.log(arr);
+console.log(arr.pop());
+console.log(arr)
+console.log(arr.shift());
+console.log(arr)
+console.log(arr.unshift(23));
+console.log(arr)*/
+
+
+
+
 
 
 
