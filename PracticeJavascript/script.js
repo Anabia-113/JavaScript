@@ -947,8 +947,9 @@ console.log(arr3);
 console.log(arr3.reverse());
 
 let arr4 = [77, 66, 55, 44, 33, 22]
-console.log(arr4.splice(2, 2,444,555))
+// console.log(arr4.splice(2, 2,444,555))
 console.log(arr4);
+
 
 
 
