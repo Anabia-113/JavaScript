@@ -898,8 +898,17 @@ console.log(str2.endsWith("?", 20));
 console.log(str2.startsWith("anabia"))*/
 
 //Question 3
-let str = "ANABIA BAIG";
-console.log(str.toLocaleLowerCase());
+/*let str = "ANABIA BAIG";
+console.log(str.toLocaleLowerCase());*/
+
+//Question4
+/*let str = "please give me 1000";
+let amount = str.slice("please give me".length);
+console.log(amount);*/
+
+//Question 5
+let str = "anabia"
+console.log(str.replace("b", "d"))
 
 
 
