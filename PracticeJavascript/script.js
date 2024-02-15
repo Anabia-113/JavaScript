@@ -861,7 +861,7 @@ console.log(name.length);
 let a= "ana\rbia"
 console.log(a)*/
 
-let name = "anabia";
+/*let name = "anabia";
 let friend = "noreen";
 let name2 = "       fatima       "
 console.log(name.toUpperCase())
@@ -874,8 +874,21 @@ console.log(name2.trim())
 
 for(let i=0; i<friend.length; i++){
     console.log(friend[i])
-}
+}*/
 
+
+//========================================================================================================================================
+//======================================================Practice set chapter 4============================================================
+//========================================================================================================================================
+
+//Question1
+/*let str = "ana\""
+console.log(str.length);*/
+
+//Question 2
+const sentence = "My name is anabia";
+const word = "anabia";
+console.log(`the word ${name} ${sentence.includes(word)? `is`: `is not`} in the sentence`)
 
 
 
