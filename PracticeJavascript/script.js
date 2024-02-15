@@ -933,7 +933,7 @@ console.log(arr)
 console.log(arr.shift());
 console.log(arr)
 console.log(arr.unshift(23));
-console.log(arr)*/
+console.log(arr)
 delete arr[3];
 console.log(arr);
 let arr2 = [1, 7, 8, 9];
@@ -950,7 +950,7 @@ let arr4 = [77, 66, 55, 44, 33, 22]
 // console.log(arr4.splice(2, 2,444,555))
 console.log(arr4);
 console.log(arr4.slice(2, 4));
-console.log(arr4);
+console.log(arr4);*/
 
 
 
