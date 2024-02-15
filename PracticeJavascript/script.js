@@ -922,6 +922,10 @@ for(let i = 0; i<arr.length; i++){
     console.log(arr[i]);
 }*/
 
+//-----------------------------------------Array methods
+let arr = [2, 3, 4, 5, 6];
+console.log(arr.toString())
+
 
 
 
