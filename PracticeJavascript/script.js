@@ -912,11 +912,15 @@ console.log(str.replace("b", "d"))*/
 
 
 //---------------------------------------------------------Arrays---------------------------------------------------------------------
-let arr = [23, 34, 45, 67, 56];
+/*let arr = [23, 34, 45, 67, 56];
 console.log(arr.length);
 console.log(arr[2]);
 arr[0] = 90;
 console.log(arr);
+
+for(let i = 0; i<arr.length; i++){
+    console.log(arr[i]);
+}*/
 
 
 
