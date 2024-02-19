@@ -980,13 +980,16 @@ console.log(arr4);*/
   }*/
 
   //some advance array methods
-  //1)Map
+  //1)Map method
   let arr = [23, 43, 54, 65, 67];
   let modifiedArray = arr.map((value, index, array) =>{
     console.log(value, index, array);
     return value + 1;
   })
   console.log(`the modified array is ${modifiedArray}`);
+
+  //filter method
+
 
   
 
