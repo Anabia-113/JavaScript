@@ -957,7 +957,7 @@ console.log(arr4);*/
 //-----------------------------------------------------------Using loops with arrays 
  let num = [23, 34, 45, 56, 67, 78];
   for(let i=0; i<num.length; i++){
-    console.log(`The number with index in the above array named num are ${num[i]}`);
+    console.log(`The number with index ${i} in the above array named num are ${num[i]}`);
   }
 
 
