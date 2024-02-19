@@ -911,7 +911,9 @@ console.log(amount);*/
 console.log(str.replace("b", "d"))*/
 
 
-//---------------------------------------------------------Arrays---------------------------------------------------------------------
+//---------------------------------------------------------Arrays----------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------------------------------------
+
 /*let arr = [23, 34, 45, 67, 56];
 console.log(arr.length);
 console.log(arr[2]);
@@ -922,8 +924,8 @@ for(let i = 0; i<arr.length; i++){
     console.log(arr[i]);
 }*/
 
-//-----------------------------------------Array methods
-let arr = [2, 3, 4, 5, 6];
+//-------------------------------------------------------Array methods
+// let arr = [2, 3, 4, 5, 6];
 // console.log(arr.toString())
 // console.log(arr.join("e"))
 /*console.log(arr.push(23));
@@ -952,9 +954,12 @@ console.log(arr4);
 console.log(arr4.slice(2, 4));
 console.log(arr4);*/
 
-//-----------------------------------------------------Using loops with arrays 
+//-----------------------------------------------------------Using loops with arrays 
  let num = [23, 34, 45, 56, 67, 78];
- 
+  for(let i=0; i<num.length; i++){
+    console.log(`The number with index in the above array named num are ${num[i]}`);
+  }
+
 
 
 
