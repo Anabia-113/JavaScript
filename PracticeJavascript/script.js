@@ -997,12 +997,12 @@ console.log(arr4);*/
   console.log(arr2);*/
 
   //reduce method
-  let arr = [1,2,3,4,5];
+  /*let arr = [1,2,3,4,5];
   let arr2 = arr.reduce((h1, h2) =>{
     return h1+h2;
 
   })
-  console.log(arr2)
+  console.log(arr2);*/
 
 
 
