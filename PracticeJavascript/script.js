@@ -1010,14 +1010,23 @@ console.log(arr4);*/
 //========================================================================================================================================
 
 //Question 1
-let arr = [1,2,3,4,5];
+/*let arr = [1,2,3,4,5];
 let a = prompt("enter a number");
+a = parseInt(a);
+arr.push(a);
+console.log(arr);*/
+
+//Question 2
+
+let arr = [1,2,3,4,5];
+let a;
+do{
+    a = prompt("enter a number");
 a = parseInt(a);
 arr.push(a);
 console.log(arr);
 
-
-
+} while(a!=0);
 
 
 
