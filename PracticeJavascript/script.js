@@ -960,10 +960,21 @@ console.log(arr4);*/
     console.log(`The number with index ${i} in the above array named num is ${num[i]}`);
   }*/
 
-  let num = [23, 34, 45, 56, 67, 78];
+  /*let num = [23, 34, 45, 56, 67, 78];
   num.forEach((element, index)=>{
     console.log(`The elements with the index ${index} of the above array is: ${element}`);
-  });
+  });*/
+
+  //Array.from
+  /*let name = "Anabia";
+  let arrName = Array.from(name);
+  console.log(arrName);*/
+
+  //for of
+  let myName = "Anabia Baig";
+  for(let i of myName){
+    console.log(`The element are: ${i}`);
+  }
 
 
 
