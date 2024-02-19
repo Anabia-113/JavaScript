@@ -970,14 +970,14 @@ console.log(arr4);*/
   let arrName = Array.from(name);
   console.log(arrName);*/
 
-  //for of
-  let myName = "Anabia Baig";
+  //for of and for in 
+  /*let myName = "Anabia Baig";
   for(let i of myName){
     console.log(`${i}`);
   }
   for(let i in myName){
     console.log(`${i}`);
-  }
+  }*/
   
 
 
