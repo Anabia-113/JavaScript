@@ -952,7 +952,9 @@ console.log(arr4);
 console.log(arr4.slice(2, 4));
 console.log(arr4);*/
 
-
+//-----------------------------------------------------Using loops with arrays 
+ let num = [23, 34, 45, 56, 67, 78];
+ 
 
 
 
