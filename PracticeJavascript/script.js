@@ -973,8 +973,14 @@ console.log(arr4);*/
   //for of
   let myName = "Anabia Baig";
   for(let i of myName){
-    console.log(`The element are: ${i}`);
+    console.log(`${i}`);
   }
+  for(let i in myName){
+    console.log(`${i}`);
+  }
+  
+
+
 
 
 
