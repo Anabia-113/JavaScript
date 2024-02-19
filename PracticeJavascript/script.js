@@ -978,6 +978,9 @@ console.log(arr4);*/
   for(let i in myName){
     console.log(`${i}`);
   }*/
+
+  //some advance array methods
+  
   
 
 
