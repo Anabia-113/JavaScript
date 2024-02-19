@@ -1018,15 +1018,16 @@ console.log(arr);*/
 
 //Question 2
 
-let arr = [1,2,3,4,5];
+/*let arr = [1,2,3,4,5];
 let a;
 do{
     a = prompt("enter a number");
-a = parseInt(a);
-arr.push(a);
-console.log(arr);
+    a = parseInt(a);
+    arr.push(a);
+
 
 } while(a!=0);
+console.log(arr);*/
 
 
 
