@@ -963,7 +963,7 @@ console.log(arr4);*/
   let num = [23, 34, 45, 56, 67, 78];
   num.forEach((element, index)=>{
     console.log(`The elements with the index ${index} of the above array is: ${element}`);
-  })
+  });
 
 
 
