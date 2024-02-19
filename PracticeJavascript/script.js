@@ -1029,7 +1029,12 @@ do{
 } while(a!=0);
 console.log(arr);*/
 
-
+//Question 3
+let arr = [1,29,350,4,5,10,20,30,230,400];
+let arr2 = arr.filter((value)=>{
+    return value %10==0 ;
+})
+console.log (arr2);
 
 
 
