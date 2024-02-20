@@ -1054,14 +1054,14 @@ console.log(arr2);*/
 //--------------------------------------------Exercise 1--------------------------------------------------------------------
 
 
-const originalNumber = Math.floor(Math.random() * 100) + 1;
+const originalNumber = Math.floor(Math.random() * 10) + 1;
 
 let userGuess;
 let numberOfGuesses = 0;
 
 while (true) {
   
-  userGuess = parseInt(prompt('Guess the number between 1 and 100:'));
+  userGuess = parseInt(prompt('Guess the number between 1 and 10:'));
   numberOfGuesses++;
   
   if (checkGuess()) {
