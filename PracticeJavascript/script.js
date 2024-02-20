@@ -1044,11 +1044,11 @@ let arr2 = arr.map((element) =>{
 console.log(arr2);*/
 
 //Question 4
-let arr = [1,2,3,4,5];
+/*let arr = [1,2,3,4,5];
 let arr2 = arr.reduce((x1, x2) =>{
     return x1 * x2;
 })
-console.log(arr2);
+console.log(arr2);*/
 
 
 
