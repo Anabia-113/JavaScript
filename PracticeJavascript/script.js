@@ -1054,31 +1054,35 @@ console.log(arr2);*/
 //--------------------------------------------Exercise 1--------------------------------------------------------------------
 
 
-const originalNumber = Math.floor(Math.random() * 10) + 1;
+const originalNumber = Math.floor(Math.random() * 100) + 1;
 
 let userGuess;
 let numberOfGuesses = 0;
 
+
+function checkGuess() {
+  if (userGuess === originalNumber) {
+    console.log(`Congratulations! You guessed the correct number in ${numberOfGuesses} guesses.`);
+    return true;
+  } else if (userGuess < originalNumber) {
+    console.log('Too low! Try again.');
+  } else {
+    console.log('Too high! Try again.');
+  }
+  return false; 
+}
+
+
 while (true) {
   
-  userGuess = parseInt(prompt('Guess the number between 1 and 10:'));
+  userGuess = parseInt(prompt('Guess the number between 1 and 100:'));
   numberOfGuesses++;
   
   if (checkGuess()) {
     break;
   }
 }
-function checkGuess() {
-    if (userGuess === originalNumber) {
-      console.log(`Congratulations! You guessed the correct number in ${numberOfGuesses} guesses.`);
-      return true;
-    } else if (userGuess < originalNumber) {
-      console.log('Too low! Try again.');
-    } else {
-      console.log('Too high! Try again.');
-    }
-    return false; 
-  }
+
 
 console.log(`Your final score is: ${numberOfGuesses}`);
 
