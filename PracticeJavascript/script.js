@@ -1043,6 +1043,13 @@ let arr2 = arr.map((element) =>{
 })
 console.log(arr);*/
 
+//Question 4
+// let arr = [1,2,3,4,5];
+// let arr2 = arr.map((element) =>{
+//     return element * element;
+// })
+// console.log(arr);
+
 
 
 
