@@ -1030,11 +1030,18 @@ do{
 console.log(arr);*/
 
 //Question 3
-let arr = [1,29,350,4,5,10,20,30,230,400];
+/*let arr = [1,29,350,4,5,10,20,30,230,400];
 let arr2 = arr.filter((value)=>{
     return value %10==0 ;
 })
-console.log (arr2);
+console.log (arr2);*/
+
+//Question 4
+let arr = [1,2,3,4,5];
+let arr2 = arr.map((element) =>{
+    return element * element;
+})
+console.log(arr);
 
 
 
