@@ -1053,8 +1053,8 @@ console.log(arr2);*/
 //--------------------------------------------guess the number--------------------------------------------------------------
 //--------------------------------------------Exercise 1--------------------------------------------------------------------
 
-
-const originalNumber = Math.floor(Math.random() * 100) + 1;
+//solution 1
+/*const originalNumber = Math.floor(Math.random() * 100) + 1;
 
 let userGuess;
 let numberOfGuesses = 0;
@@ -1084,7 +1084,35 @@ while (true) {
 }
 
 
-console.log(`Your final score is: ${numberOfGuesses}`);
+console.log(`Your final score is: ${numberOfGuesses}`);*/
+
+//solution 2
+let num = Math.random()*100;
+num = parseInt(num);
+let guess;
+let trials = 100;
+
+while(guess != num){
+    trials -= 1;
+    guess = prompt("enter the number : ");
+    if(guess == num){
+        console.log("congrats youve guessed the right number");
+        console.log(`you have guessed the number in ${100-trials} chances`);
+    }
+    else if(guess > num && guess < 100){
+        console.log("Your guessed number is greater than the actual number ")
+    }
+    else if(guess < num && guess > 0){
+        console.log("Your guessed number is smaller than the actual number ")
+
+    }
+    else{
+        console.log("Enter number between 1-100 ")
+
+
+    }
+}
+
 
 
 
