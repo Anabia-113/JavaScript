@@ -1107,7 +1107,7 @@ while(guess !== num){
 
     }
     else{
-        console.log("Enter number between 1-100 ")
+        console.log("Enter number between 1-100 ");
 
 
     }
