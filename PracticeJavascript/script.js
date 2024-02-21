@@ -1092,7 +1092,7 @@ num = parseInt(num);
 let guess;
 let trials = 100;
 
-while(guess != num){
+while(guess !== num){
     trials -= 1;
     guess = prompt("enter the number : ");
     if(guess == num){
