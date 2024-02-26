@@ -1116,7 +1116,11 @@ while(guess !== num){
 
 //-------------------------------------------------------javascript alert, prompt, confirm-----------------------------------------------
 //---------------------------------------------------------------------------------------------------------------------------------------
-alert("your script is working properly")
+alert("your script is working properly");
+alert("you have to enter a number");
+let a = prompt("enter a number here");
+a = parseInt(a);
+alert("enter a number of type:"+ (typeof(a)));
 
 
 
