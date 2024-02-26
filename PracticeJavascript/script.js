@@ -1087,7 +1087,7 @@ while (true) {
 console.log(`Your final score is: ${numberOfGuesses}`);*/
 
 //solution 2
-let num = Math.random()*100;
+/*let num = Math.random()*100;
 num = parseInt(num);
 let guess;
 let trials = 100;
@@ -1111,7 +1111,12 @@ while(guess !== num){
 
 
     }
-}
+}*/
+
+
+//-------------------------------------------------------javascript alert, prompt, confirm-----------------------------------------------
+//---------------------------------------------------------------------------------------------------------------------------------------
+alert("your script is working properly")
 
 
 
