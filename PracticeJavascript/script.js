@@ -1116,12 +1116,25 @@ while(guess !== num){
 
 //-------------------------------------------------------javascript alert, prompt, confirm-----------------------------------------------
 //---------------------------------------------------------------------------------------------------------------------------------------
-alert("your script is working properly");
+/*alert("your script is working properly");
 alert("you have to enter a number");
 let a = prompt("enter a number here", "23");
 a = parseInt(a);
 alert("enter a number of type:"+ (typeof(a)));
-document.write(a);
+let write = confirm("do you want to write it on the document");
+if(write){
+    document.write(a);
+    
+}
+else{
+    document.write("please allow me to write");
+}*/
+
+
+
+//-------------------------------------------------------DOM, BOM and windows object-----------------------------------------------------
+//---------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
