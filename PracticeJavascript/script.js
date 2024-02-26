@@ -1171,4 +1171,33 @@ document.body.style.background = color;*/
 //--------------------------------------------snake, water, gun game--------------------------------------------------------
 //--------------------------------------------Exercise 1--------------------------------------------------------------------
 
-let user = prompt("Enter S, W, or G");
+/*let user = prompt("Enter S, W, or G");
+let cpu1 = Math.floor(Math.random()*3);
+let cpu = ["S", "W", "G"][cpu1];
+
+const match = (cpu, user)=>{
+    if(cpu === user){
+        return "nobody wins, the amtch is tied";
+    }
+    else if(cpu === "S" && user ==="W"){
+        return "cpu is winner";
+    }
+    else if(cpu === "S" && user ==="G"){
+        return "user is winner";
+    }
+    else if(cpu === "W" && user ==="S"){
+        return "cpu is winner";
+    }
+    else if(cpu === "W" && user ==="G"){
+        return "cpu is winner";
+    }
+    else if(cpu === "G" && user ==="W"){
+        return "user is winner";
+    }
+    else if(cpu === "G" && user ==="S"){
+        return "cpu is winner";
+    }
+
+}
+let result = match(cpu, user);
+document.write(`CPU: ${cpu} and USER: ${user} \n The winner is ${result}`);*/
