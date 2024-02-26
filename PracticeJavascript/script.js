@@ -601,14 +601,9 @@
 //   console.log(data);
 // }
 
-
-
-
 // let URL = "https://cat-fact.herokuapp.com/facts";
 // let para1 = document.querySelector("#para");
 // let btn = document.querySelector("#btn");
-
-
 
 // const getFacts = async () => {
 //     console.log("getting data");
@@ -617,7 +612,6 @@
 //     para1.innerText = data[2].text;
 // };
 // btn.addEventListener("click", getFacts);
-
 
 //=======================================================================================================================================
 
@@ -643,7 +637,6 @@
 // obj['firstName'] = "ehtisham";
 // console.log(obj.firstName);
 
-
 //-------------------------------------------------conditional statements-----------------------------------------------------------------
 
 // let a = prompt("Enter your age");
@@ -654,10 +647,8 @@
 //     alert("invalid age");
 // }
 
-
 // let age = 30;
 // console.log("you", age>18? "can vote": "cannot vote")
-
 
 //=====================switch statements===========================================================================================
 
@@ -675,22 +666,19 @@
 //     case "Cherries":
 //       console.log("Cherries are $3.00 a pound.");
 //       break;
-    
+
 //     case "Papayas":
 //       console.log("Mangoes and papayas are $2.79 a pound.");
 //       break;
 //     default:
 //       console.log(`Sorry, we are out of ${expr}.`);
 //   }
-  
+
 //   console.log("Is there anything else you'd like?");
-
-
 
 //======================================================================================================================================
 //=========================================================Chapter 2 practice set=======================================================
 //======================================================================================================================================
-
 
 //question1
 /*let age = prompt("What is your age");
@@ -742,7 +730,6 @@ if(num%2==0 || num%3==0){
 age = parseInt(age);
 console.log(age>18? "you can drive":"you cant drive");*/
 
-
 //-------------------------------------------------------loops---------------------------------------------------------------------
 //-----------------------------------------------for loop
 /*let sum = 0;
@@ -771,7 +758,6 @@ for(let a in obj){
 //     console.log(a);
 // }
 
-
 //------------------------------while and do-while loop
 /*let n = prompt("Enter a number");
 n = parseInt(n);
@@ -782,7 +768,6 @@ do{
     i++;
 
 }while(i<n)*/
-
 
 //-----------------------------------functions in javascript------------------------------------------------------------------
 
@@ -796,10 +781,6 @@ console.log(sum());*/
 }
 console.log(sum(2,2));*/
 
-
-
-
-
 /*const hello = ()=>{
     console.log("hello");
     return "hi"
@@ -807,12 +788,9 @@ console.log(sum(2,2));*/
 let v = hello()
 console.log(hello());*/
 
-
-
 //========================================================================================================================================
 //======================================================Practice set chapter 3============================================================
 //========================================================================================================================================
-
 
 //Question 1
 
@@ -876,7 +854,6 @@ for(let i=0; i<friend.length; i++){
     console.log(friend[i])
 }*/
 
-
 //========================================================================================================================================
 //======================================================Practice set chapter 4============================================================
 //========================================================================================================================================
@@ -909,7 +886,6 @@ console.log(amount);*/
 //Question 5
 /*let str = "anabia"
 console.log(str.replace("b", "d"))*/
-
 
 //---------------------------------------------------------Arrays----------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------------------------------------------
@@ -954,24 +930,24 @@ console.log(arr4);
 console.log(arr4.slice(2, 4));
 console.log(arr4);*/
 
-//-------------------------------------------------------------------Using loops with arrays 
- /*let num = [23, 34, 45, 56, 67, 78];
+//-------------------------------------------------------------------Using loops with arrays
+/*let num = [23, 34, 45, 56, 67, 78];
   for(let i=0; i<num.length; i++){
     console.log(`The number with index ${i} in the above array named num is ${num[i]}`);
   }*/
 
-  /*let num = [23, 34, 45, 56, 67, 78];
+/*let num = [23, 34, 45, 56, 67, 78];
   num.forEach((element, index)=>{
     console.log(`The elements with the index ${index} of the above array is: ${element}`);
   });*/
 
-  //Array.from
-  /*let name = "Anabia";
+//Array.from
+/*let name = "Anabia";
   let arrName = Array.from(name);
   console.log(arrName);*/
 
-  //for of and for in 
-  /*let myName = "Anabia Baig";
+//for of and for in
+/*let myName = "Anabia Baig";
   for(let i of myName){
     console.log(`${i}`);
   }
@@ -979,31 +955,30 @@ console.log(arr4);*/
     console.log(`${i}`);
   }*/
 
-  //some advance array methods
-  //1)Map method
-  /*let arr = [23, 43, 54, 65, 67];
+//some advance array methods
+//1)Map method
+/*let arr = [23, 43, 54, 65, 67];
   let modifiedArray = arr.map((value, index, array) =>{
     console.log(value, index, array);
     return value + 1;
   })
   console.log(`the modified array is ${modifiedArray}`);*/
 
-  //filter method
-  /*let arr = [1,2,3,4,5];
+//filter method
+/*let arr = [1,2,3,4,5];
   let arr2 = arr.filter((value)=>{
     // console.log(value);
     return value < 10;
   })
   console.log(arr2);*/
 
-  //reduce method
-  /*let arr = [1,2,3,4,5];
+//reduce method
+/*let arr = [1,2,3,4,5];
   let arr2 = arr.reduce((h1, h2) =>{
     return h1+h2;
 
   })
   console.log(arr2);*/
-
 
 //========================================================================================================================================
 //======================================================Practice set chapter 5============================================================
@@ -1113,7 +1088,6 @@ while(guess !== num){
     }
 }*/
 
-
 //-------------------------------------------------------javascript alert, prompt, confirm-----------------------------------------------
 //---------------------------------------------------------------------------------------------------------------------------------------
 /*alert("your script is working properly");
@@ -1130,12 +1104,8 @@ else{
     document.write("please allow me to write");
 }*/
 
-
-
 //-------------------------------------------------------DOM, BOM and windows object-----------------------------------------------------
 //---------------------------------------------------------------------------------------------------------------------------------------
-
-
 
 //========================================================================================================================================
 //======================================================Practice set chapter 6============================================================
@@ -1150,48 +1120,17 @@ if(age >= 18){
     alert("you are underage, not allowed to drive");
 }*/
 
-
 //question 2
 
-let age = prompt("Enter your age");
-age = parseInt(age);
 let runAgain = true;
 
-while(runAgain){
-    if(age >= 18){
-        alert("you can drive");
-    }else{
-        alert("you are underage, not allowed to drive");
-    }
-    runAgain = confirm("Do you want to run again");
+while (runAgain) {
+  let age = prompt("Enter your age");
+  age = parseInt(age);
+  if (age >= 18) {
+    alert("you can drive");
+  } else {
+    alert("you are underage, not allowed to drive");
+  }
+  runAgain = confirm("Do you want to run again");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
