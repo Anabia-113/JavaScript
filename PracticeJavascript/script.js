@@ -1141,13 +1141,17 @@ else{
 //======================================================Practice set chapter 6============================================================
 //========================================================================================================================================
 
-let age = prompt("Enter your age");
+//question 1
+/*let age = prompt("Enter your age");
 age = parseInt(age);
 if(age >= 18){
     alert("you can drive");
 }else{
     alert("you are underage, not allowed to drive");
-}
+}*/
+
+
+//question 1
 
 
 
