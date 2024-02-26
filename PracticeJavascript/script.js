@@ -1122,7 +1122,7 @@ if(age >= 18){
 
 //question 2
 
-let runAgain = true;
+/*let runAgain = true;
 
 while (runAgain) {
   let age = prompt("Enter your age");
@@ -1133,4 +1133,4 @@ while (runAgain) {
     alert("you are underage, not allowed to drive");
   }
   runAgain = confirm("Do you want to run again");
-}
+}*/
