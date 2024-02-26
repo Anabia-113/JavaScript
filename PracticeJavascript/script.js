@@ -1200,4 +1200,4 @@ const match = (cpu, user)=>{
 
 }
 let result = match(cpu, user);
-document.write(`CPU: ${cpu} and USER: ${user} \n The winner is ${result}`);*/
+document.write(`CPU: ${cpu} and USER: ${user} <br> The winner is ${result}`);*/
