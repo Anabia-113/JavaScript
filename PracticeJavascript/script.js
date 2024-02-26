@@ -1137,3 +1137,21 @@ while (runAgain) {
 
 
 //question 3
+/*let runAgain = true;
+
+while (runAgain) {
+  let age = prompt("Enter your age");
+  age = parseInt(age);
+  if (age >= 18) {
+    alert("you can drive");
+  }else if(age <= 0){
+    console.error("enter a valid age");
+    break;
+  } 
+  else {
+    alert("you are underage, not allowed to drive");
+  }
+  runAgain = confirm("Do you want to run again");
+}*/
+
+//question 4
