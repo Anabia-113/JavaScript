@@ -1166,3 +1166,9 @@ if(number > 4){
 
 /*let color = prompt("Enter color name for your background");
 document.body.style.background = color;*/
+
+
+//--------------------------------------------snake, water, gun game--------------------------------------------------------
+//--------------------------------------------Exercise 1--------------------------------------------------------------------
+
+let user = prompt("Enter S, W, or G");
