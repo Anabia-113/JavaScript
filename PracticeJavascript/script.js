@@ -1165,4 +1165,4 @@ if(number > 4){
 //question 5
 
 /*let color = prompt("Enter color name for your background");
-document.body.style.background = (color);*/
+document.body.style.background = color;*/
