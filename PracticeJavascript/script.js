@@ -1208,4 +1208,4 @@ document.write(`CPU: ${cpu} and USER: ${user} <br> The winner is ${result}`);*/
 
 let ctitle = document.getElementsByClassName("card-title")[0];
 
-ctitle.style.color = "red"
+ctitle.style.color = "red";
