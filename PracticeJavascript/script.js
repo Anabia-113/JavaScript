@@ -1209,3 +1209,7 @@ document.write(`CPU: ${cpu} and USER: ${user} <br> The winner is ${result}`);*/
 let ctitle = document.getElementsByClassName("card-title")[0];
 
 ctitle.style.color = "red";
+
+let ctitles = document.querySelectorAll(".card-title");
+
+ctitle[1].style.color = "blue";
