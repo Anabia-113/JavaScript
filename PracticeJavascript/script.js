@@ -1212,4 +1212,7 @@ ctitle.style.color = "red";
 
 let ctitles = document.querySelectorAll(".card-title");
 
-ctitle[1].style.color = "blue";
+ctitles[1].style.color = "orange";
+ctitles[2].style.color = "green";
+ctitles[3].style.color = "dodgerblue";
+
