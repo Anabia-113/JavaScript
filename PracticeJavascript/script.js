@@ -1201,3 +1201,11 @@ const match = (cpu, user)=>{
 }
 let result = match(cpu, user);
 document.write(`CPU: ${cpu} and USER: ${user} <br> The winner is ${result}`);*/
+
+
+//-------------------------------------------------------Searching the DOM---------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------------------------------------
+
+let ctitle = document.getElementsByClassName("card-title")[0];
+
+ctitle.style.color = "red"
