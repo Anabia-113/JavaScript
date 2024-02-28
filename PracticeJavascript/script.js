@@ -1206,7 +1206,7 @@ document.write(`CPU: ${cpu} and USER: ${user} <br> The winner is ${result}`);*/
 //-------------------------------------------------------Searching the DOM---------------------------------------------------------------
 //---------------------------------------------------------------------------------------------------------------------------------------
 
-let ctitle = document.getElementsByClassName("card-title")[0];
+/*let ctitle = document.getElementsByClassName("card-title")[0];
 
 ctitle.style.color = "red";
 
@@ -1214,5 +1214,12 @@ let ctitles = document.querySelectorAll(".card-title");
 
 ctitles[1].style.color = "orange";
 ctitles[2].style.color = "green";
-ctitles[3].style.color = "dodgerblue";
+ctitles[3].style.color = "dodgerblue";*/
+
+
+
+
+//-------------------------------------------------------matches, closest, contain methods-----------------------------------------------
+//---------------------------------------------------------------------------------------------------------------------------------------
+
 
