@@ -1169,7 +1169,7 @@ document.body.style.background = color;*/
 
 
 //--------------------------------------------snake, water, gun game--------------------------------------------------------
-//--------------------------------------------Exercise 1--------------------------------------------------------------------
+//--------------------------------------------Exercise 2--------------------------------------------------------------------
 
 /*let user = prompt("Enter S, W, or G");
 let cpu1 = Math.floor(Math.random()*3);
@@ -1244,7 +1244,10 @@ console.log(id1.contains(sp1));*/
 // document.getElementsByTagName("div")[0].lastElementChild.style.color = "green";
 
 //question 4
-Array.from(document.getElementsByTagName("li")).forEach((element) =>{
-  element.style.background = "cyan";
+// Array.from(document.getElementsByTagName("li")).forEach((element) =>{
+//   element.style.background = "cyan";
 
-})
+// })
+
+//--------------------------------------------tell me a joke----------------------------------------------------------------
+//--------------------------------------------Exercise 3--------------------------------------------------------------------
