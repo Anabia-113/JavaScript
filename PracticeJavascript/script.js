@@ -1240,4 +1240,5 @@ console.log(id1.contains(sp1));*/
 // let first = document.getElementsByTagName("nav")[0].firstElementChild.style.color = "red";
 
 //question 3
-let first = document.getElementsByTagName("div");
+document.getElementsByTagName("div")[0].firstElementChild.style.color = "green";
+document.getElementsByTagName("div")[0].lastElementChild.style.color = "green";
