@@ -1237,4 +1237,6 @@ console.log(id1.contains(sp1));*/
 //========================================================================================================================================
 
 //question 1
-let first = document.getElementsByTagName("nav")[0].firstElementChild.style.color = "red";
+// let first = document.getElementsByTagName("nav")[0].firstElementChild.style.color = "red";
+
+//question 1
