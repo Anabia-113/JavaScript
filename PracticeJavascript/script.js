@@ -1598,6 +1598,8 @@ joke.innerHTML = jokes[index].joke;*/
 //---------------------------------------------------------------------------------------------------------------------------------------
 
 // console.log(document.body.textContent);
+let a= first.getAttribute("class");
+console.log(a)
 
 
 
