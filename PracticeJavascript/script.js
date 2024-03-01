@@ -1609,6 +1609,9 @@ console.log(first.hasAttribute("style"));
 // first.setAttribute("hidden", "true");
 // first.removeAttribute("class");
 console.log(first.attributes);
+console.log(first.dataset);
+console.log(first.dataset.game);
+console.log(first.dataset.player);
 
 
 
