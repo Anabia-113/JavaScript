@@ -1251,3 +1251,344 @@ console.log(id1.contains(sp1));*/
 
 //--------------------------------------------tell me a joke----------------------------------------------------------------
 //--------------------------------------------Exercise 3--------------------------------------------------------------------
+
+let jokes = [
+  {
+    "category": "Programming",
+    "type": "single",
+    "joke": "Today I learned that changing random stuff until your program works is \"hacky\" and a \"bad coding practice\" but if you do it fast enough it's \"Machine Learning\" and pays 4x your current salary.",
+    "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+    },
+    "id": 33,
+    "safe": true,
+    "lang": "en"
+},
+{
+    "category": "Programming",
+    "type": "single",
+    "joke": "If Bill Gates had a dime for every time Windows crashed ... Oh wait, he does.",
+    "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+    },
+    "id": 22,
+    "safe": true,
+    "lang": "en"
+},
+{
+    "category": "Programming",
+    "type": "twopart",
+    "setup": "So what's a set of predefined steps the government might take to preserve the environment?",
+    "delivery": "An Al-Gore-ithm.",
+    "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+    },
+    "id": 52,
+    "safe": true,
+    "lang": "en"
+},
+{
+    "category": "Programming",
+    "type": "single",
+    "joke": "\"We messed up the keming again guys.\"",
+    "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+    },
+    "id": 20,
+    "safe": true,
+    "lang": "en"
+},
+{
+    "category": "Programming",
+    "type": "single",
+    "joke": "Debugging is like being the detective in a crime movie where you're also the murderer at the same time.",
+    "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+    },
+    "id": 42,
+    "safe": true,
+    "lang": "en"
+},
+{
+    "category": "Programming",
+    "type": "twopart",
+    "setup": "Why do programmers wear glasses?",
+    "delivery": "Because they need to C#",
+    "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+    },
+    "id": 50,
+    "safe": true,
+    "lang": "en"
+},
+{
+    "category": "Programming",
+    "type": "twopart",
+    "setup": "Why are modern programming languages so materialistic?",
+    "delivery": "Because they are object-oriented.",
+    "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+    },
+    "id": 21,
+    "safe": true,
+    "lang": "en"
+},
+{
+    "category": "Programming",
+    "type": "single",
+    "joke": "The six stages of debugging:\n1. That can't happen.\n2. That doesn't happen on my machine.\n3. That shouldn't happen.\n4. Why does that happen?\n5. Oh, I see.\n6. How did that ever work?",
+    "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+    },
+    "id": 123,
+    "safe": true,
+    "lang": "en"
+},
+{
+    "category": "Programming",
+    "type": "twopart",
+    "setup": "Hey, wanna hear a joke?",
+    "delivery": "Parsing HTML with regex.",
+    "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+    },
+    "id": 10,
+    "safe": true,
+    "lang": "en"
+},
+{
+    "category": "Programming",
+    "type": "single",
+    "joke": "A SQL statement walks into a bar and sees two tables.\nIt approaches, and asks \"may I join you?\"",
+    "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+    },
+    "id": 5,
+    "safe": true,
+    "lang": "en"
+},
+{
+  "category": "Pun",
+  "type": "twopart",
+  "setup": "The other day my wife asked me to pass her lipstick, but I accidentally gave her a glue stick.",
+  "delivery": "She still isn't talking to me.",
+  "flags": {
+      "nsfw": false,
+      "religious": false,
+      "political": false,
+      "racist": false,
+      "sexist": false,
+      "explicit": false
+  },
+  "safe": true,
+  "id": 284,
+  "lang": "en"
+},
+{
+  "category": "Dark",
+  "type": "twopart",
+  "setup": "Muslim women are horrible competitors.",
+  "delivery": "No matter what they do, they always get beat.",
+  "flags": {
+      "nsfw": false,
+      "religious": true,
+      "political": false,
+      "racist": false,
+      "sexist": false,
+      "explicit": false
+  },
+  "id": 113,
+  "safe": false,
+  "lang": "en"
+},
+{
+  "category": "Pun",
+  "type": "twopart",
+  "setup": "What do you call a witch at the beach?",
+  "delivery": "A Sandwich.",
+  "flags": {
+      "nsfw": false,
+      "religious": false,
+      "political": false,
+      "racist": false,
+      "sexist": false,
+      "explicit": false
+  },
+  "id": 176,
+  "safe": true,
+  "lang": "en"
+},
+{
+  "category": "Dark",
+  "type": "twopart",
+  "setup": "White people don't shoot each other in the streets as black people do.",
+  "delivery": "They do it in schools because they have class.",
+  "flags": {
+      "nsfw": false,
+      "religious": false,
+      "political": false,
+      "racist": true,
+      "sexist": false,
+      "explicit": true
+  },
+  "id": 116,
+  "safe": false,
+  "lang": "en"
+},
+{
+  "category": "Programming",
+  "type": "single",
+  "joke": "The generation of random numbers is too important to be left to chance.",
+  "flags": {
+      "nsfw": false,
+      "religious": false,
+      "political": false,
+      "racist": false,
+      "sexist": false,
+      "explicit": false
+  },
+  "id": 39,
+  "safe": true,
+  "lang": "en"
+},
+{
+  "category": "Spooky",
+  "type": "twopart",
+  "setup": "Why did the ghost go to the bar?",
+  "delivery": "To get sheet faced.",
+  "flags": {
+      "nsfw": false,
+      "religious": false,
+      "political": false,
+      "racist": false,
+      "sexist": false,
+      "explicit": true
+  },
+  "safe": false,
+  "id": 315,
+  "lang": "en"
+},
+{
+  "category": "Programming",
+  "type": "twopart",
+  "setup": "Why did the Python programmer not respond to the foreign mails he got?",
+  "delivery": "Because his interpreter was busy collecting garbage.",
+  "flags": {
+      "nsfw": false,
+      "religious": false,
+      "political": false,
+      "racist": false,
+      "sexist": false,
+      "explicit": false
+  },
+  "id": 15,
+  "safe": true,
+  "lang": "en"
+},
+{
+  "category": "Dark",
+  "type": "twopart",
+  "setup": "Jokes about anti-vaxxer parents never get old.",
+  "delivery": "Just like their kids.",
+  "flags": {
+      "nsfw": false,
+      "religious": false,
+      "political": false,
+      "racist": false,
+      "sexist": false,
+      "explicit": false
+  },
+  "id": 118,
+  "safe": false,
+  "lang": "en"
+},
+{
+  "category": "Spooky",
+  "type": "twopart",
+  "setup": "Why didn't the skeleton go for prom?",
+  "delivery": "Because it had nobody.",
+  "flags": {
+      "nsfw": false,
+      "religious": false,
+      "political": false,
+      "racist": false,
+      "sexist": false,
+      "explicit": false
+  },
+  "id": 183,
+  "safe": true,
+  "lang": "en"
+},
+{
+  "category": "Dark",
+  "type": "twopart",
+  "setup": "What do Japanese cannibals eat?",
+  "delivery": "Raw men.",
+  "flags": {
+      "nsfw": true,
+      "religious": false,
+      "political": false,
+      "racist": false,
+      "sexist": false,
+      "explicit": true
+  },
+  "id": 79,
+  "safe": false,
+  "lang": "en"
+}
+
+];
+let joke = document.querySelector("#joke");
+
+let index = Math.floor(Math.random()*jokes.length-1);
+joke.innerHTML = jokes[index].joke;
