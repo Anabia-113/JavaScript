@@ -1252,7 +1252,7 @@ console.log(id1.contains(sp1));*/
 //--------------------------------------------tell me a joke on every refresh of the tab------------------------------------
 //--------------------------------------------Exercise 3--------------------------------------------------------------------
 
-let jokes = [
+/*let jokes = [
   {
     "category": "Programming",
     "type": "single",
@@ -1591,4 +1591,12 @@ let jokes = [
 let joke = document.querySelector("#joke");
 
 let index = Math.floor(Math.random()*jokes.length-1);
-joke.innerHTML = jokes[index].joke;
+joke.innerHTML = jokes[index].joke;*/
+
+
+//--------------------------------------Chapter 8 innerHTML outerHTML and other properties-----------------------------------------------
+//---------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
