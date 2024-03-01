@@ -1599,7 +1599,10 @@ joke.innerHTML = jokes[index].joke;*/
 
 // console.log(document.body.textContent);
 let a= first.getAttribute("class");
-console.log(a)
+console.log(a);
+console.log(first.hasAttribute("class"));
+console.log(first.hasAttribute("style"));
+first.setAttribute("hidden", "true")
 
 
 
