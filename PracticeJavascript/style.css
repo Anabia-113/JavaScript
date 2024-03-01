@@ -1,52 +1,14 @@
-/* .box{
-    height: 200px;
-    width: 500px;
-    background-color: dodgerblue;
-    border: 1px red solid;
-} */
-
-
-/* tic-tac-toe game */
 *{
-    margin: 0px;
-    padding: 0px;
-}
-body{
-    background-color: #548687;
-    text-align: center;
-}
-.container{
-    height: 70vh;
-    /* width: 70vh; */
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-    align-items: center;
-}
-.game{
-    height: 60vmin;
-    width: 60vmin;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5vmin;
-}
-.box{
-    height: 18vmin;
-    width: 18vmin;
-    border-radius: 1rem;
-    border: none;
-    box-shadow: 0 0 1rem rgba(0,0,0.1);
-    font-size: 8vmin;
-    color: #b0413e;
+    margin: 0;
+    padding: 0;
 
 }
-#reset-btn{
-    padding: 1rem;
-    font-size: 1.25rem;
-    background-color: #191913;
-    color: #fff;
-    border-radius: 1rem;
-    border: none;
+
+#joke{
+    background-color: azure;
+    color: #333;
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
 }
