@@ -1661,8 +1661,8 @@ joke.innerHTML = jokes[index].joke;*/
 // }
 // setTimeout(sum, 1000, 1, 2);
 
-setInterval(function(){
-  alert("this is set interval")
-}, 3000);
+// setInterval(function(){
+//   alert("this is set interval")
+// }, 3000);
 
 
