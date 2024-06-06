@@ -1650,7 +1650,13 @@ joke.innerHTML = jokes[index].joke;*/
 //-------------------------------------------------set interval and set timeout in javascript-----------------------------------------------------
 //--------------------------------------------------------------------------------------------------------------------------------------
 
-setTimeout(function(){
-  alert("hello")
+// setTimeout(function(){
+//   alert("hello")
   
-}, 5000)
+// }, 5000);
+
+const sum = (a, b)=>{
+  console.log("i am running")
+  a + b
+}
+setTimeout(sum, 1000, 1, 2);
