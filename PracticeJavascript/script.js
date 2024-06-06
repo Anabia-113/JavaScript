@@ -1641,4 +1641,6 @@ joke.innerHTML = jokes[index].joke;*/
 
 //-------------------------------------------------Changing html classes using javascript-----------------------------------------------------
 //--------------------------------------------------------------------------------------------------------------------------------------
-first.className = "dark red"
+first.className = "dark red";
+first.classList.remove("red");
+first.classList.add("red");
