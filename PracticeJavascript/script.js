@@ -1641,8 +1641,13 @@ joke.innerHTML = jokes[index].joke;*/
 
 //-------------------------------------------------Changing html classes using javascript-----------------------------------------------------
 //--------------------------------------------------------------------------------------------------------------------------------------
-first.className = "dark red";
-first.classList.remove("red");
-// first.classList.add("red");
-first.classList.toggle("red");
+// first.className = "dark red"; //chnage the existing class
+// first.classList.remove("red"); //remove the class specified
+// // first.classList.add("red");
+// first.classList.toggle("red");  // toggle adds class if it doesnt exists and remove when it exist
+// first.classList.contain("red"); //checks whether the class exists or not
+
+//-------------------------------------------------set interval and set timeout in javascript-----------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------------------------------
+
 
