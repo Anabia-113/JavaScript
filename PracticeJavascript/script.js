@@ -1656,7 +1656,7 @@ joke.innerHTML = jokes[index].joke;*/
 // }, 5000);
 
 const sum = (a, b)=>{
-  console.log("i am running")
+  console.log("i am running" + (a+b))
   a + b
 }
 setTimeout(sum, 1000, 1, 2);
