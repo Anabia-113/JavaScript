@@ -1655,8 +1655,14 @@ joke.innerHTML = jokes[index].joke;*/
   
 // }, 5000);
 
-const sum = (a, b)=>{
-  console.log("i am running" + (a+b))
-  a + b
-}
-setTimeout(sum, 1000, 1, 2);
+// const sum = (a, b)=>{
+//   console.log("i am running" + (a+b))
+//   a + b
+// }
+// setTimeout(sum, 1000, 1, 2);
+
+setInterval(function(){
+  alert("this is set interval")
+}, 3000);
+
+
