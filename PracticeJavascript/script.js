@@ -1643,4 +1643,6 @@ joke.innerHTML = jokes[index].joke;*/
 //--------------------------------------------------------------------------------------------------------------------------------------
 first.className = "dark red";
 first.classList.remove("red");
-first.classList.add("red");
+// first.classList.add("red");
+first.classList.toggle("red");
+
