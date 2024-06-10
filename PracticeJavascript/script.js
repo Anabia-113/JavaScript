@@ -1667,17 +1667,21 @@ joke.innerHTML = jokes[index].joke;*/
 
 //-------------------------------------------------Browser events-----------------------------------------------------
 //-------------------------------------------------Add/remove event listeners-----------------------------------------
-let x = function(e){
-  alert('hello world');
-};
-let y = function(e){
-  alert('hello world2');
-};
-btn.addEventListener('click',x)
-btn.addEventListener('click',y)
+// let x = function(e){
+//   alert('hello world');
+// };
+// let y = function(e){
+//   alert('hello world2');
+// };
+// btn.addEventListener('click',x)
+// btn.addEventListener('click',y)
  
-let a = prompt("what is your favourite number?")
-if (a=="2"){
-  btn.removeEventListener('click', x)
+// let a = prompt("what is your favourite number?")
+// if (a=="2"){
+//   btn.removeEventListener('click', x)
 
-}
+// }
+
+//========================================================================================================================================
+//======================================================Practice set chapter 8============================================================
+//========================================================================================================================================
