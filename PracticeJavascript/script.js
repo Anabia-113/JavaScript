@@ -1678,6 +1678,6 @@ btn.addEventListener('click',y)
  
 let a = prompt("what is your favourite number?")
 if (a=="2"){
-  
+  btn.removeEventListener('click', y)
 
 }
