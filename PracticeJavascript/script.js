@@ -1667,10 +1667,11 @@ joke.innerHTML = jokes[index].joke;*/
 
 //-------------------------------------------------Browser events-----------------------------------------------------
 //-------------------------------------------------Add/remove event listeners-----------------------------------------
-btn.addEventListener('click',function(e){
+let x = function(e){
   alert('hello world');
-})
+};
 let y = function(e){
   alert('hello world2');
 };
+btn.addEventListener('click',x)
 btn.addEventListener('click',y)
