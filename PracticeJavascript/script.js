@@ -1675,3 +1675,9 @@ let y = function(e){
 };
 btn.addEventListener('click',x)
 btn.addEventListener('click',y)
+ 
+let a = prompt("what is your favourite number?")
+if (a=="2"){
+  
+
+}
