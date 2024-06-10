@@ -1670,6 +1670,7 @@ joke.innerHTML = jokes[index].joke;*/
 btn.addEventListener('click',function(e){
   alert('hello world');
 })
-btn.addEventListener('click',function(e){
+let y = function(e){
   alert('hello world2');
-})
+};
+btn.addEventListener('click',y)
