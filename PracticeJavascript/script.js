@@ -1691,5 +1691,8 @@ joke.innerHTML = jokes[index].joke;*/
 // document.getElementById("google").addEventListener('click',function(){
 //   window.location = "https://www.google.com";
 // })
+// Question5
 
-
+setInterval(function(){
+  document.querySelector("#bulb").classList.toggle("bulb");
+},300);
