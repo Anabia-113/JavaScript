@@ -1688,3 +1688,6 @@ joke.innerHTML = jokes[index].joke;*/
 //Question1:
 //Question2:
 //Question3:
+document.getElementById("google").addEventListener('click',function(){
+  window.location = "https://www.google.com";
+})
