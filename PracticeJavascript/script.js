@@ -1667,4 +1667,6 @@ joke.innerHTML = jokes[index].joke;*/
 
 //-------------------------------------------------Browser events-----------------------------------------------------
 //-------------------------------------------------Add/remove event listeners-----------------------------------------
-btn.
+btn.addEventListeners('click',function(){
+  alert('hello world');
+})
