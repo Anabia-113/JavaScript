@@ -1695,4 +1695,4 @@ joke.innerHTML = jokes[index].joke;*/
 
 setInterval(function(){
   document.querySelector("#bulb").classList.toggle("bulb");
-},300);
+},500);
