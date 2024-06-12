@@ -1693,6 +1693,9 @@ joke.innerHTML = jokes[index].joke;*/
 // })
 // Question5
 
-setInterval(function(){
-  document.querySelector("#bulb").classList.toggle("bulb");
-},500);
+// setInterval(function(){
+//   document.querySelector("#bulb").classList.toggle("bulb");
+// },500);
+
+//--------------------------------------------------------Chapter 9--------------------------------------------------------------------
+//--------------------------------------------------------Callback functions-----------------------------------------------------------
