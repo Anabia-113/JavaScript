@@ -1718,4 +1718,7 @@ let p2 = new Promise((resolve,reject)=>{
 
   },5000)
 })
-console.log(p1,p2);
+// console.log(p1,p2);
+p1.then((value)=>{
+  console.log(value)
+})
