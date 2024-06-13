@@ -1700,8 +1700,8 @@ joke.innerHTML = jokes[index].joke;*/
 //--------------------------------------------------------Chapter 9--------------------------------------------------------------------
 //--------------------------------------------------------Callback functions/callback hell-----------------------------------------------------------
 //--------------------------------------------------------Promises--------------------------------------------------------------------
-let p = new Promise((resolve,reject)=>{
-  console.log("promise is pending");
+let p1 = new Promise((resolve,reject)=>{
+  console.log("promise 1 is pending");
   setTimeout(()=>{
     console.log("I am fullfilled");
     resolve(true);
@@ -1709,4 +1709,13 @@ let p = new Promise((resolve,reject)=>{
 
   },5000)
 })
-console.log(p);
+let p2 = new Promise((resolve,reject)=>{
+  console.log("promise 2 is pending");
+  setTimeout(()=>{
+    console.log("I am rejected");
+    // resolve(true);
+    reject(new error("I am an error"))
+
+  },5000)
+})
+console.log(p1,p2);
