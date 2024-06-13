@@ -1705,6 +1705,7 @@ let p = new Promise((resolve,reject)=>{
   setTimeout(()=>{
     console.log("I am fullfilled");
     resolve(true);
+    reject(new error("I am an error"))
 
   },5000)
 })
