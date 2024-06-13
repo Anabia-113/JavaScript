@@ -1708,3 +1708,4 @@ let p = new Promise((resolve,reject)=>{
 
   },5000)
 })
+console.log(p);
