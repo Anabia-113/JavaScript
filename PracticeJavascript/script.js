@@ -1700,28 +1700,31 @@ joke.innerHTML = jokes[index].joke;*/
 //--------------------------------------------------------Chapter 9--------------------------------------------------------------------
 //--------------------------------------------------------Callback functions/callback hell-----------------------------------------------------------
 //--------------------------------------------------------Promises--------------------------------------------------------------------
-let p1 = new Promise((resolve,reject)=>{
-  console.log("promise 1 is pending");
-  setTimeout(()=>{
-    console.log("I am fullfilled");
-    resolve(true);
-    // reject(new error("I am an error"))
+// let p1 = new Promise((resolve,reject)=>{
+//   console.log("promise 1 is pending");
+//   setTimeout(()=>{
+//     console.log("I am fullfilled");
+//     resolve(true);
+//     // reject(new error("I am an error"))
 
-  },5000)
-})
-let p2 = new Promise((resolve,reject)=>{
-  console.log("promise 2 is pending");
-  setTimeout(()=>{
-    console.log("I am rejected");
-    // resolve(true);
-    reject(new Error("I am an error"))
+//   },5000)
+// })
+// let p2 = new Promise((resolve,reject)=>{
+//   console.log("promise 2 is pending");
+//   setTimeout(()=>{
+//     console.log("I am rejected");
+//     // resolve(true);
+//     reject(new Error("I am an error"))
 
-  },5000)
-})
-// console.log(p1,p2);
-p1.then((value)=>{
-  console.log(value)
-})
-p2.catch((error)=>{
-  console.log("some error occured in p2");
-})
+//   },5000)
+// })
+// // console.log(p1,p2);
+// p1.then((value)=>{
+//   console.log(value)
+// })
+// p2.catch((error)=>{
+//   console.log("some error occured in p2");
+// })
+
+//-------------------------------------------------Browser events-----------------------------------------------------
+//-------------------------------------------------Add/remove event listeners-----------------------------------------
