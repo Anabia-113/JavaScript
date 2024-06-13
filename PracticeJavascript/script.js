@@ -1714,7 +1714,7 @@ let p2 = new Promise((resolve,reject)=>{
   setTimeout(()=>{
     console.log("I am rejected");
     // resolve(true);
-    reject(new error("I am an error"))
+    reject(new Error("I am an error"))
 
   },5000)
 })
