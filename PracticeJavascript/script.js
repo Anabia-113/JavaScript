@@ -1743,13 +1743,13 @@ let p1 = new Promise((resolve, reject)=>{
 let p2 = new Promise((resolve, reject)=>{
   setTimeout(()=>{
     resolve("value 2");
-  },1000);
+  },2000);
 
 })
 let p3 = new Promise((resolve, reject)=>{
   setTimeout(()=>{
     resolve("value 3");
-  },1000);
+  },3000);
 
 })
 
