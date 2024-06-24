@@ -1737,7 +1737,7 @@ joke.innerHTML = jokes[index].joke;*/
 let p1 = new Promise((resolve, reject)=>{
   setTimeout(()=>{
     resolve("value 1");
-  },1000);
+  },10000);
 
 })
 let p2 = new Promise((resolve, reject)=>{
@@ -1767,7 +1767,8 @@ let p3 = new Promise((resolve, reject)=>{
 // let promise_all = Promise.all([p1,p2,p3]);
 // let promise_all = Promise.allSettled([p1,p2,p3]);
 // let promise_all = Promise.race([p1,p2,p3]);
-let promise_all = Promise.any([p1,p2,p3]);
+// let promise_all = Promise.any([p1,p2,p3]);
+let promise_all = Promise.resolve(6);
 promise_all.then((value)=>{
   console.log(value);
 })
