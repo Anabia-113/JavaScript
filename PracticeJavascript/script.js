@@ -1752,3 +1752,7 @@ let p3 = new Promise((resolve, reject)=>{
   },1000);
 
 })
+
+p1.then((value)=>{
+  console.log(value)
+})
