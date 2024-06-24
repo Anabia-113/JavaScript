@@ -1768,7 +1768,8 @@ let p3 = new Promise((resolve, reject)=>{
 // let promise_all = Promise.allSettled([p1,p2,p3]);
 // let promise_all = Promise.race([p1,p2,p3]);
 // let promise_all = Promise.any([p1,p2,p3]);
-let promise_all = Promise.resolve(6);
+// let promise_all = Promise.resolve(6);
+// let promise_all = Promise.reject(new Error("hi"));
 promise_all.then((value)=>{
   console.log(value);
 })
