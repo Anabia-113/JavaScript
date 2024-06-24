@@ -1740,3 +1740,21 @@ let p1 = new Promise((resolve, reject)=>{
   },1000);
 
 })
+let p2 = new Promise((resolve, reject)=>{
+  setTimeout(()=>{
+    resolve("value 1");
+  },1000);
+
+})
+let p3 = new Promise((resolve, reject)=>{
+  setTimeout(()=>{
+    resolve("value 1");
+  },1000);
+
+})
+let p4 = new Promise((resolve, reject)=>{
+  setTimeout(()=>{
+    resolve("value 1");
+  },1000);
+
+})
