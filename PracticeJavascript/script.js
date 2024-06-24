@@ -1754,5 +1754,5 @@ let p3 = new Promise((resolve, reject)=>{
 })
 
 p1.then((value)=>{
-  console.log(value)
+  console.log(value);
 })
