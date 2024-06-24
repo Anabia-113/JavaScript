@@ -1737,6 +1737,6 @@ joke.innerHTML = jokes[index].joke;*/
 let p1 = new Promise((resolve, reject)=>{
   setTimeout(()=>{
     resolve("value 1");
-  },1000)
+  },1000);
 
 })
