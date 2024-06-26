@@ -1734,25 +1734,25 @@ joke.innerHTML = jokes[index].joke;*/
 
 //-------------------------The Promise API -----------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------
-let p1 = new Promise((resolve, reject)=>{
-  setTimeout(()=>{
-    resolve("value 1");
-  },10000);
+// let p1 = new Promise((resolve, reject)=>{
+//   setTimeout(()=>{
+//     resolve("value 1");
+//   },10000);
 
-})
-let p2 = new Promise((resolve, reject)=>{
-  setTimeout(()=>{
-    // resolve("value 2");
-    reject(new Error("error"))
-  },2000);
+// })
+// let p2 = new Promise((resolve, reject)=>{
+//   setTimeout(()=>{
+//     // resolve("value 2");
+//     reject(new Error("error"))
+//   },2000);
 
-})
-let p3 = new Promise((resolve, reject)=>{
-  setTimeout(()=>{
-    resolve("value 3");
-  },3000);
+// })
+// let p3 = new Promise((resolve, reject)=>{
+//   setTimeout(()=>{
+//     resolve("value 3");
+//   },3000);
 
-})
+// })
 
 // p1.then((value)=>{
 //   console.log(value);
@@ -1770,6 +1770,9 @@ let p3 = new Promise((resolve, reject)=>{
 // let promise_all = Promise.any([p1,p2,p3]);
 // let promise_all = Promise.resolve(6);
 // let promise_all = Promise.reject(new Error("hi"));
-promise_all.then((value)=>{
-  console.log(value);
-})
+// promise_all.then((value)=>{
+//   console.log(value);
+// })
+
+//-------------------------Async/Await in javascript -------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------------------
