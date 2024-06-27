@@ -1799,15 +1799,17 @@ async function weather(){
   console.log("fetched karachi weather: " + karachiW)
   return [lahoreW, karachiW];
 }
-const cherry = ()=>{
+const cherry = async ()=>{
   console.log("i am not waiting")
 
 
 }
-
-console.log("welcome to weather forcasting room")
-let W = weather();
-let c = cherry()
-W.then((value)=>{
-  console.log(value);
-})
+const main1 = async ()=>{
+  console.log("welcome to weather forcasting room")
+  let W = await weather();
+  let c = await cherry();
+  W.then((value)=>{
+    console.log(value);
+  })
+}
+main1();
