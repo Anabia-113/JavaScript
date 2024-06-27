@@ -1791,8 +1791,12 @@ async function weather(){
   })
   // lahore.then(alert)
   // karachi.then(alert)
+  console.log("fetching lahore weather please wait...")
   let lahoreW = await lahore;
+  console.log("fetched lahore weather:" + lahoreW)
+  console.log("fetching karachi weather please wait...")
   let karachiW = await karachi;
+  console.log("fetched karachi weather: " + karachiW)
   return [lahoreW, karachiW];
 }
 console.log("welcome to weather forcasting room")
