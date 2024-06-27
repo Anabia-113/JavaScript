@@ -1776,38 +1776,38 @@ joke.innerHTML = jokes[index].joke;*/
 
 //-------------------------Async/Await in javascript -------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------
-async function weather(){
-  let lahore = new Promise((resolve,reject)=>{
-    setTimeout(()=>{
-      resolve("40 deg")
-    }, 2000)
+// async function weather(){
+//   let lahore = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//       resolve("40 deg")
+//     }, 2000)
   
-  })
-  let karachi = new Promise((resolve,reject)=>{
-    setTimeout(()=>{
-      resolve("50 deg")
-    }, 7000)
+//   })
+//   let karachi = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//       resolve("50 deg")
+//     }, 7000)
   
-  })
+//   })
   // lahore.then(alert)
   // karachi.then(alert)
-  console.log("fetching lahore weather please wait...")
-  let lahoreW = await lahore;
-  console.log("fetched lahore weather:" + lahoreW)
-  console.log("fetching karachi weather please wait...")
-  let karachiW = await karachi;
-  console.log("fetched karachi weather: " + karachiW)
-  return [lahoreW, karachiW];
-}
-const cherry = async ()=>{
-  console.log("i am now waiting")
+//   console.log("fetching lahore weather please wait...")
+//   let lahoreW = await lahore;
+//   console.log("fetched lahore weather:" + lahoreW)
+//   console.log("fetching karachi weather please wait...")
+//   let karachiW = await karachi;
+//   console.log("fetched karachi weather: " + karachiW)
+//   return [lahoreW, karachiW];
+// }
+// const cherry = async ()=>{
+//   console.log("i am now waiting")
 
 
-}
-const main1 = async ()=>{
-  console.log("welcome to weather forcasting room")
-  let W = await weather();
-  let c = await cherry();
+// }
+// const main1 = async ()=>{
+//   console.log("welcome to weather forcasting room")
+//   let W = await weather();
+//   let c = await cherry();
   
-}
-main1();
+// }
+// main1();
