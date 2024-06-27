@@ -1800,7 +1800,7 @@ async function weather(){
   return [lahoreW, karachiW];
 }
 const cherry = async ()=>{
-  console.log("i am not waiting")
+  console.log("i am now waiting")
 
 
 }
@@ -1808,8 +1808,6 @@ const main1 = async ()=>{
   console.log("welcome to weather forcasting room")
   let W = await weather();
   let c = await cherry();
-  W.then((value)=>{
-    console.log(value);
-  })
+  
 }
 main1();
