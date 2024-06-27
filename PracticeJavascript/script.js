@@ -1779,6 +1779,12 @@ joke.innerHTML = jokes[index].joke;*/
 let lahore = new Promise((resolve,reject)=>{
   setTimeout(()=>{
     console.log("40 deg")
-  })
+  }, 1000)
+
+})
+let karachi = new Promise((resolve,reject)=>{
+  setTimeout(()=>{
+    console.log("50 deg")
+  }, 2000)
 
 })
