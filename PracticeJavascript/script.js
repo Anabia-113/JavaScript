@@ -1789,8 +1789,11 @@ async function weather(){
     }, 2000)
   
   })
-  lahore.then(alert)
-  karachi.then(alert)
+  // lahore.then(alert)
+  // karachi.then(alert)
+  let lahoreW = await lahore;
+  let karachiW = await karachi;
+  return [lahoreW, karachiW];
 }
 console.log("welcome to weather forcasting room")
 weather()
