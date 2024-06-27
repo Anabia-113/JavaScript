@@ -1779,13 +1779,13 @@ joke.innerHTML = jokes[index].joke;*/
 async function weather(){
   let lahore = new Promise((resolve,reject)=>{
     setTimeout(()=>{
-      console.log("40 deg")
+      resolve("40 deg")
     }, 1000)
   
   })
   let karachi = new Promise((resolve,reject)=>{
     setTimeout(()=>{
-      console.log("50 deg")
+      resolve("50 deg")
     }, 2000)
   
   })
