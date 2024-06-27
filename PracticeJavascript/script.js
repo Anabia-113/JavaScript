@@ -1796,4 +1796,5 @@ async function weather(){
   return [lahoreW, karachiW];
 }
 console.log("welcome to weather forcasting room")
-weather()
+let W = weather();
+console.log(W);
