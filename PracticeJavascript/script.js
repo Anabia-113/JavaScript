@@ -1801,4 +1801,6 @@ async function weather(){
 }
 console.log("welcome to weather forcasting room")
 let W = weather();
-console.log(W);
+W.then((value)=>{
+  console.log(value);
+})
