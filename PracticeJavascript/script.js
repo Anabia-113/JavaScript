@@ -1776,6 +1776,9 @@ joke.innerHTML = jokes[index].joke;*/
 
 //-------------------------Async/Await in javascript -------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------
-let p1 = new Promise((resolve,reject)=>{
-  
+let lahore = new Promise((resolve,reject)=>{
+  setTimeout(()=>{
+    console.log("40 deg")
+  })
+
 })
