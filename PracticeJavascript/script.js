@@ -1776,15 +1776,21 @@ joke.innerHTML = jokes[index].joke;*/
 
 //-------------------------Async/Await in javascript -------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------
-let lahore = new Promise((resolve,reject)=>{
-  setTimeout(()=>{
-    console.log("40 deg")
-  }, 1000)
-
-})
-let karachi = new Promise((resolve,reject)=>{
-  setTimeout(()=>{
-    console.log("50 deg")
-  }, 2000)
-
-})
+async function weather(){
+  let lahore = new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+      console.log("40 deg")
+    }, 1000)
+  
+  })
+  let karachi = new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+      console.log("50 deg")
+    }, 2000)
+  
+  })
+  lahore.then(alert)
+  karachi.then(alert)
+}
+console.log("welcome to weather forcasting room")
+weather()
