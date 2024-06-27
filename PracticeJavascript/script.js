@@ -1786,7 +1786,7 @@ async function weather(){
   let karachi = new Promise((resolve,reject)=>{
     setTimeout(()=>{
       resolve("50 deg")
-    }, 2000)
+    }, 7000)
   
   })
   // lahore.then(alert)
