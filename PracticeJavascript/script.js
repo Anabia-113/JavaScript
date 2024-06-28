@@ -1818,12 +1818,12 @@ joke.innerHTML = jokes[index].joke;*/
 //------------------------The error object and custom errors -----------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------
 
-try{
-  anabia
-  throw new ReferenceError("this is good");
+// try{
+//   console.log(anabia)
+//   throw new ReferenceError("this is good");
 
-}
-catch(error){
-  console.log(error.name);
-  console.log(error.message);
-}
+// }
+// catch(error){
+//   console.log(error.name);
+//   console.log(error.message);
+// }
