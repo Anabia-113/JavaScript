@@ -1830,10 +1830,13 @@ joke.innerHTML = jokes[index].joke;*/
 
 //------------------------The finally clause ---------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------
-try{
-  let a = 0;
-  console.log(p)
-  console.log("program ran successfully")
-}catch(err){
-  console.log("error in the program")
-}
+// try{
+//   let a = 0;
+//   // console.log(p)
+//   console.log("program ran successfully")
+// }catch(err){
+//   console.log("error in the program")
+// }
+// finally{
+//   console.log("i will log definetly")
+// }
