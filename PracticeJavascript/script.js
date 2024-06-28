@@ -1832,6 +1832,7 @@ joke.innerHTML = jokes[index].joke;*/
 //----------------------------------------------------------------------------------------------------------------------
 try{
   let a = 0;
+  console.log(p)
   console.log("program ran successfully")
 }catch(err){
   console.log("error in the program")
