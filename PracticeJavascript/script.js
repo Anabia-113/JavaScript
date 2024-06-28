@@ -1820,6 +1820,7 @@ joke.innerHTML = jokes[index].joke;*/
 
 try{
   anabia
+  throw new ReferenceError("this is good")
 
 }
 catch(error){
