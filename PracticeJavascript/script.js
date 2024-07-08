@@ -1854,7 +1854,7 @@ joke.innerHTML = jokes[index].joke;*/
 //========================================================================================================================================
 
 setInterval(()=>{
-  let d = new Date();
-  time.innerHtml = d;
-},1000);
+  let d = new Date()
+  time.innerHtml = d
+}, 1000);
 
