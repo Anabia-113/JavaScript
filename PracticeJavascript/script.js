@@ -1855,6 +1855,6 @@ joke.innerHTML = jokes[index].joke;*/
 
 setInterval(()=>{
   let d = new Date()
-  time.innerHtml = d
+  time.innerHTML = d
 }, 1000);
 
