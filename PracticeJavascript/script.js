@@ -1896,11 +1896,12 @@ let p = fetch('https://jsonplaceholder.typicode.com/posts',options);
         return response;
 }
 
-const mainFunc = ()=>{
-  let todo = createToDo();
+const mainFunc = async()=>{
+  let todo = await createToDo();
   console.log(todo);
 
 }
+mainFunc();
 
 
 
