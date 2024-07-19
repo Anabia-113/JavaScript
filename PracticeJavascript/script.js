@@ -1882,7 +1882,12 @@ let options = {
     "Content-type" : "application/json"
 
   },
-  
+  body: JSON.stringify({
+    title: 'foo',
+    body: 'bar',
+    userId: 1,
+  }),
+
 
 }
 
