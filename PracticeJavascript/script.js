@@ -1906,6 +1906,7 @@ const getToDo = async()=>{
 const mainFunc = async()=>{
   let todo = await createToDo();
   console.log(todo);
+  console.log( await getToDo(123));
 
 }
 mainFunc();
