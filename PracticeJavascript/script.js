@@ -1865,6 +1865,11 @@ joke.innerHTML = jokes[index].joke;*/
 
 
 let p = fetch("https://goweather.herokuapp.com/weather/India");
-p.then
+p.then((response)=>{
+  console.log(response.status);
+  console.log(response.ok);
+  
+
+})
 
 
