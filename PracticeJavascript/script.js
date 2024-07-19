@@ -1877,7 +1877,13 @@ joke.innerHTML = jokes[index].joke;*/
 //----------------------------------------------------------------------------------------------------------------------
 
 let options = {
+  method: "POST",
+  headers: { 
+    "Content-type" : "application/json"
+
+  },
   
+
 }
 
 
