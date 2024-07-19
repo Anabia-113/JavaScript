@@ -1875,6 +1875,8 @@ joke.innerHTML = jokes[index].joke;*/
 
 //------------------------Sending POST request with Fetch() API --------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------
+const createToDo = async()=>{
+
 
 let options = {
   method: "POST",
@@ -1888,6 +1890,7 @@ let options = {
     userId: 1,
   }),
 
+}
 }
 fetch('https://jsonplaceholder.typicode.com/posts',options)
   
