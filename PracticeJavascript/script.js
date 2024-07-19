@@ -1893,6 +1893,7 @@ let options = {
 }
 let p = fetch('https://jsonplaceholder.typicode.com/posts',options);
 let response = await p.json();
+return response;
 }
 
   
