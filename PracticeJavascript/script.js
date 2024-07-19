@@ -1891,8 +1891,9 @@ let options = {
   }),
 
 }
+let p = fetch('https://jsonplaceholder.typicode.com/posts',options);
 }
-fetch('https://jsonplaceholder.typicode.com/posts',options)
+
   
   .then((response) => response.json())
   .then((json) => console.log(json));
