@@ -1896,9 +1896,11 @@ let p = fetch('https://jsonplaceholder.typicode.com/posts',options);
         return response;
 }
 
-  
-  .then((response) => response.json())
-  .then((json) => console.log(json));
+const mainFunc = ()=>{
+  let todo = createToDo();
+  console.log(todo);
+
+}
 
 
 
