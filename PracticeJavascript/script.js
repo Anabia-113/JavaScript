@@ -1865,3 +1865,4 @@ joke.innerHTML = jokes[index].joke;*/
 
 
 
+
