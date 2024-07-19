@@ -1896,8 +1896,8 @@ let p =  await fetch('https://jsonplaceholder.typicode.com/posts',options);
         return response;
 }
 
-const getToDo = async()=>{
-  let response = await fetch('https://jsonplaceholder.typicode.com/posts/1')
+const getToDo = async(id)=>{
+  let response = await fetch('https://jsonplaceholder.typicode.com/posts/' + id)
    let r = response.json()
    return r;
 
