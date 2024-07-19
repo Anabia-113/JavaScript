@@ -1896,6 +1896,10 @@ let p =  await fetch('https://jsonplaceholder.typicode.com/posts',options);
         return response;
 }
 
+const getToDo = async()=>{
+  
+}
+
 const mainFunc = async()=>{
   let todo = await createToDo();
   console.log(todo);
