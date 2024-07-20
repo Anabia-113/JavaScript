@@ -1875,41 +1875,41 @@ joke.innerHTML = jokes[index].joke;*/
 
 //------------------------Sending POST request with Fetch() API --------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------
-const createToDo = async()=>{
+// const createToDo = async()=>{
 
 
-let options = {
-  method: "POST",
-  headers: { 
-    "Content-type" : "application/json"
+// let options = {
+//   method: "POST",
+//   headers: { 
+//     "Content-type" : "application/json"
 
-  },
-  body: JSON.stringify({
-    title: 'foo',
-    body: 'bar',
-    userId: 1,
-  }),
+//   },
+//   body: JSON.stringify({
+//     title: 'foo',
+//     body: 'bar',
+//     userId: 1,
+//   }),
 
-}
-let p =  await fetch('https://jsonplaceholder.typicode.com/posts',options);
-        let response = await p.json();
-        return response;
-}
+// }
+// let p =  await fetch('https://jsonplaceholder.typicode.com/posts',options);
+//         let response = await p.json();
+//         return response;
+// }
 
-const getToDo = async(id)=>{
-  let response = await fetch('https://jsonplaceholder.typicode.com/posts/' + id)
-   let r = response.json()
-   return r;
+// const getToDo = async(id)=>{
+//   let response = await fetch('https://jsonplaceholder.typicode.com/posts/' + id)
+//    let r = response.json()
+//    return r;
 
-}
+// }
 
-const mainFunc = async()=>{
-  let todo = await createToDo();
-  console.log(todo);
-  console.log( await getToDo(5));
+// const mainFunc = async()=>{
+//   let todo = await createToDo();
+//   console.log(todo);
+//   console.log( await getToDo(5));
 
-}
-mainFunc();
+// }
+// mainFunc();
 
 
 
