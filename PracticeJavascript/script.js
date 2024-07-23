@@ -1919,4 +1919,5 @@ joke.innerHTML = jokes[index].joke;*/
 console.log(document.cookie);
 document.cookie = "name = anabia1";
 document.cookie = "name = anabia2";
+console.log(document.cookie);
 
