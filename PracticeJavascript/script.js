@@ -1916,8 +1916,9 @@ joke.innerHTML = jokes[index].joke;*/
 //------------------------Cookies in javascript-------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------
 
-console.log(document.cookie);
+
 document.cookie = "name = anabia1";
+console.log(document.cookie);
 document.cookie = "name = anabia2";
 console.log(document.cookie);
 
