@@ -1918,4 +1918,6 @@ joke.innerHTML = jokes[index].joke;*/
 //========================================================================================================================================
 //Question1
 let url = "https://kontests.net/api/v1/all";
+let response = fetch(url);
+cardContainer.innerHTML = "allcards";
 
