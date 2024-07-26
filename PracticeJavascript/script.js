@@ -1135,7 +1135,6 @@ while (runAgain) {
   runAgain = confirm("Do you want to run again");
 }*/
 
-
 //question 3
 /*let runAgain = true;
 
@@ -1166,7 +1165,6 @@ if(number > 4){
 
 /*let color = prompt("Enter color name for your background");
 document.body.style.background = color;*/
-
 
 //--------------------------------------------snake, water, gun game--------------------------------------------------------
 //--------------------------------------------Exercise 2--------------------------------------------------------------------
@@ -1202,7 +1200,6 @@ const match = (cpu, user)=>{
 let result = match(cpu, user);
 document.write(`CPU: ${cpu} and USER: ${user} <br> The winner is ${result}`);*/
 
-
 //-------------------------------------------------------Searching the DOM---------------------------------------------------------------
 //---------------------------------------------------------------------------------------------------------------------------------------
 
@@ -1216,9 +1213,6 @@ ctitles[1].style.color = "orange";
 ctitles[2].style.color = "green";
 ctitles[3].style.color = "dodgerblue";*/
 
-
-
-
 //-------------------------------------------------------matches, closest, contain methods-----------------------------------------------
 //---------------------------------------------------------------------------------------------------------------------------------------
 /*let id1 = document.getElementById("id1");
@@ -1229,8 +1223,6 @@ console.log(id1.matches(".class"));
 console.log(id1.matches(".box"));
 console.log(id1.closest(".box"));
 console.log(id1.contains(sp1));*/
-
-
 
 //========================================================================================================================================
 //======================================================Practice set chapter 7============================================================
@@ -1593,14 +1585,10 @@ let joke = document.querySelector("#joke");
 let index = Math.floor(Math.random()*jokes.length-1);
 joke.innerHTML = jokes[index].joke;*/
 
-
 //--------------------------------------Chapter 8 innerHTML outerHTML and other properties-----------------------------------------------
 //---------------------------------------------------------------------------------------------------------------------------------------
 
 // console.log(document.body.textContent);
-
-
-
 
 //-------------------------------------------------Attribute methods--------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------------------------------------------------
@@ -1616,7 +1604,6 @@ joke.innerHTML = jokes[index].joke;*/
 // console.log(first.dataset.game);
 // console.log(first.dataset.player);
 
-
 //-------------------------------------------------HTML insertion methods---------------------------------------------------------------
 //--------------------------------------------------------------------------------------------------------------------------------------
 // let a = document.getElementsByTagName("div")[0];
@@ -1628,7 +1615,6 @@ joke.innerHTML = jokes[index].joke;*/
 // a.before(div);
 // a.after(div);
 // a.replaceWith(div)
-
 
 //-------------------------------------------------insert adjacent element/html---------------------------------------------------------
 //--------------------------------------------------------------------------------------------------------------------------------------
@@ -1652,7 +1638,7 @@ joke.innerHTML = jokes[index].joke;*/
 
 // setTimeout(function(){
 //   alert("hello")
-  
+
 // }, 5000);
 
 // const sum = (a, b)=>{
@@ -1675,7 +1661,7 @@ joke.innerHTML = jokes[index].joke;*/
 // };
 // btn.addEventListener('click',x)
 // btn.addEventListener('click',y)
- 
+
 // let a = prompt("what is your favourite number?")
 // if (a=="2"){
 //   btn.removeEventListener('click', x)
@@ -1781,16 +1767,16 @@ joke.innerHTML = jokes[index].joke;*/
 //     setTimeout(()=>{
 //       resolve("40 deg")
 //     }, 2000)
-  
+
 //   })
 //   let karachi = new Promise((resolve,reject)=>{
 //     setTimeout(()=>{
 //       resolve("50 deg")
 //     }, 7000)
-  
+
 //   })
-  // lahore.then(alert)
-  // karachi.then(alert)
+// lahore.then(alert)
+// karachi.then(alert)
 //   console.log("fetching lahore weather please wait...")
 //   let lahoreW = await lahore;
 //   console.log("fetched lahore weather:" + lahoreW)
@@ -1802,13 +1788,12 @@ joke.innerHTML = jokes[index].joke;*/
 // const cherry = async ()=>{
 //   console.log("i am now waiting")
 
-
 // }
 // const main1 = async ()=>{
 //   console.log("welcome to weather forcasting room")
 //   let W = await weather();
 //   let c = await cherry();
-  
+
 // }
 // main1();
 
@@ -1841,7 +1826,6 @@ joke.innerHTML = jokes[index].joke;*/
 //   console.log("i will log definetly")
 // }
 
-
 //========================================================================================================================================
 //======================================================Practice set chapter 9============================================================
 //========================================================================================================================================
@@ -1859,7 +1843,6 @@ joke.innerHTML = jokes[index].joke;*/
 //   time.innerHTML = d
 // }, 2000);
 
-
 //------------------------Fetch() API ----------------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------
 
@@ -1872,15 +1855,13 @@ joke.innerHTML = jokes[index].joke;*/
 //   console.log(value);
 // });
 
-
 //------------------------Sending POST request with Fetch() API --------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------
 // const createToDo = async()=>{
 
-
 // let options = {
 //   method: "POST",
-//   headers: { 
+//   headers: {
 //     "Content-type" : "application/json"
 
 //   },
@@ -1911,11 +1892,8 @@ joke.innerHTML = jokes[index].joke;*/
 // }
 // mainFunc();
 
-
-
 //------------------------Cookies in javascript-------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------
-
 
 // document.cookie = "name = anabia1";
 // console.log(document.cookie);
@@ -1932,11 +1910,9 @@ joke.innerHTML = jokes[index].joke;*/
 //localstorage.removeItem
 //localstorage.clear()
 
-
-//------------------------session storage and related methods-------------------------------------------------------------------------
+//------------------------session storage and related methods-----------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------
 
 //========================================================================================================================================
 //======================================================Practice set chapter 10===========================================================
 //========================================================================================================================================
-
