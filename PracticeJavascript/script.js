@@ -1917,13 +1917,58 @@ joke.innerHTML = jokes[index].joke;*/
 //======================================================Practice set chapter 10===========================================================
 //========================================================================================================================================
 //Question1
-let url = "https://kontests.net/api/v1/all";
-let response = fetch(url);
-response.then((v)=>{
-  return v.json;
-}).then((v)=>{
-  console.log(v);
+// let url = "https://kontests.net/api/v1/all";
+// let response = fetch(url);
+// response.then((v)=>{
+//   return v.json;
+// }).then((v)=>{
+//   console.log(v);
 
-})
-cardContainer.innerHTML = "allcards";
+// })
+// cardContainer.innerHTML = "allcards";
 
+
+
+//------------------------Exercise 5------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------------------
+
+let a = [
+  "Initializing hack tool",
+  "connecting to facebook",
+  "connecting to server 1",
+  "connection failed. Retrying...",
+  "connecting to server 2",
+  "connected successfully",
+  "Username Anabia",
+  "trying brute force",
+  "200K passwords tried",
+  "match not found",
+  "Another 200K passwords tried",
+  "match found",
+  "Accessing account",
+  "Hack successful",
+
+]
+
+const sleep = async(seconds)=>{
+  return new Promise((resolve, reject)=>{
+    setTimeout(()=>{
+      resolve(true)
+    },seconds * 1000)
+
+  });
+};
+
+const showHack = async (message)=>{
+  await sleep(2);
+  // console.log(message);
+  text.innerHTML = text.innerHTML + message + "<br>";
+
+
+};
+
+(async ()=>{
+  for(let i=0; i<a.length; i++){
+    await showHack(a[i]);
+  }
+})()
