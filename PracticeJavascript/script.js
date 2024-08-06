@@ -2075,6 +2075,10 @@ class Programmer extends Employee{
   requestCoffee(x){
     console.log(`Employee has requested for ${x} coffee`)
   }
+  requestLeaves(leaves){
+    console.log(`Employee has requeated for ${leaves+1} leaves`)
+  }
+  
 }
 let e = new Employee();
 e.login();
