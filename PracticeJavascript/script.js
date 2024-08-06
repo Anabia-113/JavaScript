@@ -2020,11 +2020,11 @@ class railwayForm{
   }
 }
 //create form for harry
-let  harryForm = new railwayForm;
+let  harryForm = new railwayForm(harry, 1234);
 // harryForm.fill("harry",1234)    no need to fill form if constructor is initialized
 
 //create form for harry2
-let  harryForm2 = new railwayForm;
+let  harryForm2 = new railwayForm(harry2,5678);
 // harryForm2.fill("harry2",5678)   no need to fill form if constructor is initialized
 
 harryForm.submit();
