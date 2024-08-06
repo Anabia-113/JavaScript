@@ -2076,7 +2076,7 @@ class Programmer extends Employee{
     console.log(`Employee has requested for ${x} coffee`)
   }
   requestLeaves(leaves){
-    console.log(`Employee has requeated for ${leaves+1} leaves`)
+    console.log(`Employee has requeated for ${leaves+1} leaves (one extra)`)
   }
   
 }
