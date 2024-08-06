@@ -1981,26 +1981,29 @@ joke.innerHTML = jokes[index].joke;*/
 
 //-----------------------classes and objects in JavaScript-----------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------
-class railwayForm{
-  fill(givenname,trainno){
-    this.name = givenname;
-    this.trainno = trainno;
-  }
-  submit(){
-    alert(this.name + ":form is submitted for train number: " + this.trainno)
-  }
-  cancel(){
-    alert(this.name + ":form is cancelled for train number: "+ this.trainno)
-  }
-}
-//create form for harry
-let  harryForm = new railwayForm;
-harryForm.fill("harry",1234)
+// class railwayForm{
+//   fill(givenname,trainno){
+//     this.name = givenname;
+//     this.trainno = trainno;
+//   }
+//   submit(){
+//     alert(this.name + ":form is submitted for train number: " + this.trainno)
+//   }
+//   cancel(){
+//     alert(this.name + ":form is cancelled for train number: "+ this.trainno)
+//   }
+// }
+// //create form for harry
+// let  harryForm = new railwayForm;
+// harryForm.fill("harry",1234)
 
-//create form for harry2
-let  harryForm2 = new railwayForm;
-harryForm2.fill("harry2",5678)
+// //create form for harry2
+// let  harryForm2 = new railwayForm;
+// harryForm2.fill("harry2",5678)
 
-harryForm.submit();
-harryForm2.submit();
-harryForm2.cancel();
+// harryForm.submit();
+// harryForm2.submit();
+// harryForm2.cancel();
+
+//-----------------------constructors in JavaScript-----------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------------------
