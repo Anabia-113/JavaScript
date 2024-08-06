@@ -1995,11 +1995,11 @@ class railwayForm{
 }
 //create form for harry
 let  harryForm = new railwayForm;
-harryForm.fill("harry")
+harryForm.fill("harry",1234)
 
 //create form for harry2
 let  harryForm2 = new railwayForm;
-harryForm2.fill("harry2")
+harryForm2.fill("harry2",5678)
 
 harryForm.submit();
 harryForm2.submit();
