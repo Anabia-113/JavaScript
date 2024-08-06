@@ -2009,6 +2009,7 @@ joke.innerHTML = jokes[index].joke;*/
 //------------------------------------------------------------------------------------------------------------
 class railwayForm{
   constructor(givenname,trainno){
+    console.log("constructor called..." + givenname + " " + trainno)
     this.name = givenname;
     this.trainno = trainno;
   }
