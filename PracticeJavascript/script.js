@@ -1998,5 +1998,5 @@ harryForm.fill("harry")
 
 //create form for harry2
 let  harryForm2 = new railwayForm;
-
+harryForm2.fill("harry2")
 
