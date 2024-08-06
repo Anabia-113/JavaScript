@@ -2077,7 +2077,7 @@ class Programmer extends Employee{
   }
   requestLeaves(leaves){
     // console.log(`Employee has requeated for ${leaves+1} leaves (one extra)`)
-    super.requestLeaves(3);
+    super.requestLeaves(4);
     console.log("one extra leave is granted")
   }
   
