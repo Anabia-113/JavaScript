@@ -2001,4 +2001,5 @@ let  harryForm2 = new railwayForm;
 harryForm2.fill("harry2")
 
 harryForm.submit();
-harryForm2.submit
+harryForm2.submit();
+harryForm2.cancel();
