@@ -1982,8 +1982,8 @@ joke.innerHTML = jokes[index].joke;*/
 //-----------------------classes and objects in JavaScript-----------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------
 class railwayForm{
-  fill(){
-    alert(this.name + ":form is filled")
+  fill(givenname){
+    this.name = givenname;
   }
   submit(){
     alert(this.name + ":form is submitted")
@@ -1992,4 +1992,6 @@ class railwayForm{
     alert(this.name + ":form is cancelled")
   }
 }
+
+
 
