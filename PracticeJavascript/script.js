@@ -2035,25 +2035,28 @@ joke.innerHTML = jokes[index].joke;*/
 //-----------------------Inheritance & extends Keyword in JavaScript------------------------------------------
 //------------------------------------------------------------------------------------------------------------
 
-class Animal{
-  constructor(name, color){
-    this.name = name;
-    this.color = color;
+// class Animal{
+//   constructor(name, color){
+//     this.name = name;
+//     this.color = color;
 
-  }
-  run(){
-    console.log(this.name + " " + "is running");
-  }
-  shout(){
-    console.log(this.name + " " + "is shouting");
-  }
-}
-class Monkey extends Animal{
-  eating(){
-    console.log(this.name + " " + "eat banana");
-  }
-}
+//   }
+//   run(){
+//     console.log(this.name + " " + "is running");
+//   }
+//   shout(){
+//     console.log(this.name + " " + "is shouting");
+//   }
+// }
+// class Monkey extends Animal{
+//   eating(){
+//     console.log(this.name + " " + "eat banana");
+//   }
+// }
 
-let m = new Monkey("chimp", "black");
-m.shout();
-m.eating();
+// let m = new Monkey("chimp", "black");
+// m.shout();
+// m.eating();
+
+//-----------------------Method overriding in JavaScript------------------------------------------
+//------------------------------------------------------------------------------------------------------------
