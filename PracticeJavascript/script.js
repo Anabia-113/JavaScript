@@ -2060,28 +2060,28 @@ joke.innerHTML = jokes[index].joke;*/
 
 //-----------------------Method overriding in JavaScript------------------------------------------------------
 //------------------------------------------------------------------------------------------------------------
-class Employee{
-  login(){
-    console.log("Employee has logged in")
-  }
-  logout(){
-    console.log("Employee has logged out")
-  }
-  requestLeaves(leaves){
-    console.log(`Employee has requeated for ${leaves} leaves`)
-  }
-}
-class Programmer extends Employee{
-  requestCoffee(x){
-    console.log(`Employee has requested for ${x} coffee`)
-  }
-  requestLeaves(leaves){
-    // console.log(`Employee has requeated for ${leaves+1} leaves (one extra)`)
-    super.requestLeaves(4);
-    console.log("one extra leave is granted")
-  }
+// class Employee{
+//   login(){
+//     console.log("Employee has logged in")
+//   }
+//   logout(){
+//     console.log("Employee has logged out")
+//   }
+//   requestLeaves(leaves){
+//     console.log(`Employee has requeated for ${leaves} leaves`)
+//   }
+// }
+// class Programmer extends Employee{
+//   requestCoffee(x){
+//     console.log(`Employee has requested for ${x} coffee`)
+//   }
+//   requestLeaves(leaves){
+//     // console.log(`Employee has requeated for ${leaves+1} leaves (one extra)`)
+//     super.requestLeaves(4);
+//     console.log("one extra leave is granted")
+//   }
   
-}
-let e = new Programmer();
-e.login();
-e.requestLeaves(3);
+// }
+// let e = new Programmer();
+// e.login();
+// e.requestLeaves(3);
