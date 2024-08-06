@@ -2080,6 +2080,6 @@ class Programmer extends Employee{
   }
   
 }
-let e = new Employee();
+let e = new Programmer();
 e.login();
 e.requestLeaves(3);
