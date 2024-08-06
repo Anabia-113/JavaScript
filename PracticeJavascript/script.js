@@ -2076,3 +2076,6 @@ class Programmer extends Employee{
     console.log(`Employee has requested for ${x} coffee`)
   }
 }
+let e = new Employee();
+e.login();
+e.requestLeaves(3);
