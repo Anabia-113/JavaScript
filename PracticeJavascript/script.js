@@ -1987,10 +1987,10 @@ class railwayForm{
     this.trainno = trainno;
   }
   submit(){
-    alert(this.name + ":form is submitted" + this.trainno)
+    alert(this.name + ":form is submitted for train number: " + this.trainno)
   }
   cancel(){
-    alert(this.name + ":form is cancelled"+ this.trainno)
+    alert(this.name + ":form is cancelled for train number: "+ this.trainno)
   }
 }
 //create form for harry
