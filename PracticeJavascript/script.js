@@ -2053,3 +2053,5 @@ class Monkey extends Animal{
     console.log("eat banana");
   }
 }
+
+let m = new Animal("chimp", black);
