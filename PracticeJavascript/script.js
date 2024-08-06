@@ -2048,3 +2048,8 @@ class Animal{
     console.log(this.name + "is shouting");
   }
 }
+class Monkey extends Animal{
+  eating(){
+    console.log("eat banana");
+  }
+}
