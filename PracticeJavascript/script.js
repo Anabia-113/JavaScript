@@ -1992,7 +1992,11 @@ class railwayForm{
     alert(this.name + ":form is cancelled")
   }
 }
+//create form for harry
+let  harryForm = new railwayForm;
+harryForm.fill("harry")
 
-let  
+//create form for harry2
+let  harryForm2 = new railwayForm;
 
 
