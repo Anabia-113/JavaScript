@@ -2008,7 +2008,7 @@ joke.innerHTML = jokes[index].joke;*/
 //-----------------------constructors in JavaScript-----------------------------------------------------------
 //------------------------------------------------------------------------------------------------------------
 class railwayForm{
-  fill(givenname,trainno){
+  constructor(givenname,trainno){
     this.name = givenname;
     this.trainno = trainno;
   }
