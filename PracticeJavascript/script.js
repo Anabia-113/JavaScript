@@ -1932,43 +1932,50 @@ joke.innerHTML = jokes[index].joke;*/
 //------------------------Exercise 5------------------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------------------
 
-let a = [
-  "Initializing hack tool",
-  "connecting to facebook",
-  "connecting to server 1",
-  "connection failed. Retrying...",
-  "connecting to server 2",
-  "connected successfully",
-  "Username Anabia",
-  "trying brute force",
-  "200K passwords tried",
-  "match not found",
-  "Another 200K passwords tried",
-  "match found",
-  "Accessing account",
-  "Hack successful",
+// let a = [
+//   "Initializing hack tool",
+//   "connecting to facebook",
+//   "connecting to server 1",
+//   "connection failed. Retrying...",
+//   "connecting to server 2",
+//   "connected successfully",
+//   "Username Anabia",
+//   "trying brute force",
+//   "200K passwords tried",
+//   "match not found",
+//   "Another 200K passwords tried",
+//   "match found",
+//   "Accessing account",
+//   "Hack successful",
 
-]
+// ]
 
-const sleep = async(seconds)=>{
-  return new Promise((resolve, reject)=>{
-    setTimeout(()=>{
-      resolve(true)
-    },seconds * 1000)
+// const sleep = async(seconds)=>{
+//   return new Promise((resolve, reject)=>{
+//     setTimeout(()=>{
+//       resolve(true)
+//     },seconds * 1000)
 
-  });
-};
+//   });
+// };
 
-const showHack = async (message)=>{
-  await sleep(2);
-  // console.log(message);
-  text.innerHTML = text.innerHTML + message + "<br>";
+// const showHack = async (message)=>{
+//   await sleep(2);
+//   // console.log(message);
+//   text.innerHTML = text.innerHTML + message + "<br>";
 
 
-};
+// };
 
-(async ()=>{
-  for(let i=0; i<a.length; i++){
-    await showHack(a[i]);
-  }
-})()
+// (async ()=>{
+//   for(let i=0; i<a.length; i++){
+//     await showHack(a[i]);
+//   }
+// })()
+
+
+
+//-----------------------Protypes and __proto__ in JavaScript-----------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------------------
+
+
