@@ -2042,16 +2042,18 @@ class Animal{
 
   }
   run(){
-    console.log(this.name + "is running");
+    console.log(this.name + " " + "is running");
   }
   shout(){
-    console.log(this.name + "is shouting");
+    console.log(this.name + " " + "is shouting");
   }
 }
 class Monkey extends Animal{
   eating(){
-    console.log("eat banana");
+    console.log(this.name + " " + "eat banana");
   }
 }
 
-let m = new Animal("chimp", black);
+let m = new Monkey("chimp", "black");
+m.shout();
+m.eating();
