@@ -1625,7 +1625,7 @@ joke.innerHTML = jokes[index].joke;*/
 // first.insertAdjacentHTML("afterend", '<div class="test">afterend</div>');
 // first.remove();
 
-//-------------------------------------------------Changing html classes using javascript-----------------------------------------------------
+//-------------------------------------------------Changing html classes using javascript-----------------------------------------------
 //--------------------------------------------------------------------------------------------------------------------------------------
 // first.className = "dark red"; //chnage the existing class
 // first.classList.remove("red"); //remove the class specified
@@ -1633,7 +1633,7 @@ joke.innerHTML = jokes[index].joke;*/
 // first.classList.toggle("red");  // toggle adds class if it doesnt exists and remove when it exist
 // first.classList.contain("red"); //checks whether the class exists or not
 
-//-------------------------------------------------set interval and set timeout in javascript-----------------------------------------------------
+//-------------------------------------------------set interval and set timeout in javascript-------------------------------------------
 //--------------------------------------------------------------------------------------------------------------------------------------
 
 // setTimeout(function(){
