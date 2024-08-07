@@ -752,7 +752,8 @@ for(let a in obj){
 
 }*/
 
-//----------------------------for of loop ------used if we want  values and is iterable
+//----------------------------for of loop ------used if we want  values and is iterable-----------------------------
+//------------------------------------------------------------------------------------------------------------------
 
 // for(let a of "Anabia"){
 //     console.log(a);
