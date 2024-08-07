@@ -739,7 +739,8 @@ for (let i=0; i<n; i++){
 }
 console.log("sum of ", n, "is", sum)*/
 
-//----------------------------for in loop ------used if we want key in an object
+//----------------------------for in loop ------used if we want key in an object-----------------------------
+//-----------------------------------------------------------------------------------------------------------
 
 /*let obj = {
     fullName : "Anabia Baig",
