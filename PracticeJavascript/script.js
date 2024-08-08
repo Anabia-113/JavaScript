@@ -2136,7 +2136,9 @@ class Complex{
     this.real = this.real + num.real
     this.imaginary = this.imaginary + num.imaginary;
   }
-
+  get(){
+    
+  }
 
 }
 let a = new Complex(1,2)
