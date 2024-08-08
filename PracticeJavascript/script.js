@@ -2108,7 +2108,7 @@ class Animal{
 
   }
   walk(){
-    alert("Animal " + this.name + " " + is walking")
+    alert("Animal " + this.name + " " + "is walking")
   }
   static capitalize(name){
     return name.charAt(0).toUpperCase() + name.substr(1, name.length);
