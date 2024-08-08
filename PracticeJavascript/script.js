@@ -2114,5 +2114,6 @@ class Animal{
     return name.charAt(0).toUpperCase() + name.substr(1, name.length);
   }
 }
-
+let j = new Animal("jack");
+j.walk();
 
