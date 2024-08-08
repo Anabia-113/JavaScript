@@ -2137,7 +2137,7 @@ class Complex{
     this.imaginary = this.imaginary + num.imaginary;
   }
   get(){
-    
+    return this._real;
   }
 
 }
