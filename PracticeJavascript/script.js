@@ -2155,9 +2155,9 @@ class Human{
 }
 class Student extends Human{
   walk(){
-    console.log(this.name + "student is walking");
+    console.log(this.name + " " +  "student is walking");
   }
 }
 
-let a = Student("ali", "bindi")
+let a = new Student("ali", "bindi")
 a.walk();
