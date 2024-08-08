@@ -2118,6 +2118,6 @@ joke.innerHTML = jokes[index].joke;*/
 // j.walk();
 
 
-//-----------------------Getters, setters and instanceOf in JavaScript------------------------------------
+//-----------------------Getters, setters and instanceOf operators in JavaScript------------------------------------
 //--------------------------------------------------------------------------------------------------------
 
