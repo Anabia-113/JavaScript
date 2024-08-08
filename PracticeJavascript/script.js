@@ -2127,35 +2127,35 @@ joke.innerHTML = jokes[index].joke;*/
 //======================================================Practice set chapter 11===========================================================
 //========================================================================================================================================
 //Question 1-2-5
-class Complex{
-  constructor(real, imaginary){
-    this.real = real;
-    this.imaginary = imaginary;
-  }
-  add(num){
-    this.real = this.real + num.real
-    this.imaginary = this.imaginary + num.imaginary;
-  }
-  get real(){
-    return this._real;
-  }
-  get imaginary(){
-    return this._imaginary;
-  }
-  set real(newReal){
-    this._real = newReal
-  }
-  set imaginary(newimaginary){
-    this._imaginary = newimaginary
-  }
+// class Complex{
+//   constructor(real, imaginary){
+//     this.real = real;
+//     this.imaginary = imaginary;
+//   }
+//   add(num){
+//     this.real = this.real + num.real
+//     this.imaginary = this.imaginary + num.imaginary;
+//   }
+//   get real(){
+//     return this._real;
+//   }
+//   get imaginary(){
+//     return this._imaginary;
+//   }
+//   set real(newReal){
+//     this._real = newReal
+//   }
+//   set imaginary(newimaginary){
+//     this._imaginary = newimaginary
+//   }
 
-}
-let a = new Complex(1,2)
-a.real = 10
-a.imaginary = 10
-let b = new Complex(3,4)
-a.add(b)
-console.log(`${a.real} + ${a.imaginary}i`)
+// }
+// let a = new Complex(1,2)
+// a.real = 10
+// a.imaginary = 10
+// let b = new Complex(3,4)
+// a.add(b)
+// console.log(`${a.real} + ${a.imaginary}i`)
 
 //Question 3-4
 // class Human{
