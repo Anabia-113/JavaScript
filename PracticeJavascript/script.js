@@ -2132,7 +2132,7 @@ class Complex{
     this.real = real;
     this.imaginary = imaginary;
   }
-  add(){
+  add(num){
     this.real = this.real + num.real
     this.imaginary = this.imaginary + num.imaginary;
   }
@@ -2141,4 +2141,4 @@ class Complex{
 let a = new Complex(1,2)
 let b = new Complex(3,4)
 a.add(b)
-console.log(`${a.real} + ${a.imaginary}`)
+console.log(`${a.real} + ${a.imaginary}i`)
