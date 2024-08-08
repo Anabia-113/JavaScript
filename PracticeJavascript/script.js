@@ -2161,3 +2161,4 @@ class Student extends Human{
 
 let a = new Student("ali", "bindi")
 a.walk();
+console.log(a instanceof Human)
