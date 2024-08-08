@@ -2127,18 +2127,34 @@ joke.innerHTML = jokes[index].joke;*/
 //======================================================Practice set chapter 11===========================================================
 //========================================================================================================================================
 //Question 1-2
-class Complex{
-  constructor(real, imaginary){
-    this.real = real;
-    this.imaginary = imaginary;
-  }
-  add(num){
-    this.real = this.real + num.real
-    this.imaginary = this.imaginary + num.imaginary;
-  }
+// class Complex{
+//   constructor(real, imaginary){
+//     this.real = real;
+//     this.imaginary = imaginary;
+//   }
+//   add(num){
+//     this.real = this.real + num.real
+//     this.imaginary = this.imaginary + num.imaginary;
+//   }
 
+// }
+// let a = new Complex(1,2)
+// let b = new Complex(3,4)
+// a.add(b)
+// console.log(`${a.real} + ${a.imaginary}i`)
+
+//Question 3-4
+class Human{
+  constructor(name, food){
+    this.name = name
+    this.food = food
+  }
+  walk(){
+    console.log(this.name + "student is walking");
+  }
 }
-let a = new Complex(1,2)
-let b = new Complex(3,4)
-a.add(b)
-console.log(`${a.real} + ${a.imaginary}i`)
+class Student extends Human{
+  walk(){
+    console.log(this.name + "student is walking");
+  }
+}
