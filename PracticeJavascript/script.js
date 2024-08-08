@@ -2150,7 +2150,7 @@ class Human{
     this.food = food
   }
   walk(){
-    console.log(this.name + "student is walking");
+    console.log(this.name + "human is walking");
   }
 }
 class Student extends Human{
@@ -2158,3 +2158,6 @@ class Student extends Human{
     console.log(this.name + "student is walking");
   }
 }
+
+let a = Student("ali", "bindi")
+a.walk();
