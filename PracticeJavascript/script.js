@@ -2140,3 +2140,5 @@ class Complex{
 }
 let a = new Complex(1,2)
 let b = new Complex(3,4)
+a.add(b)
+console.log(`${a.real} + ${a.imaginary}`)
