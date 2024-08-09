@@ -2188,3 +2188,9 @@ submit.addEventListener("click", (e)=>{
   localStorage.setItem("todo", JSON.stringify([title,desc]))
   console.log(e)
 })
+
+delete.addEventListener("click", (e)=>{
+  e.preventDefault();
+  localStorage.setItem("todo", JSON.stringify([title,desc]))
+  
+})
