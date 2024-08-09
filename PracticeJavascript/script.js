@@ -2183,6 +2183,8 @@ joke.innerHTML = jokes[index].joke;*/
 
 submit.addEventListener("click", (e)=>{
   e.preventDefault();
-  localStorage.setItem("todo",[title,desc])
+  let title = title.value
+  let desc = desc.value
+  localStorage.setItem("todo", JSON.stringify([title,desc]))
   console.log(e)
 })
