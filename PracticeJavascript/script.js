@@ -2181,21 +2181,25 @@ joke.innerHTML = jokes[index].joke;*/
 //=========================================================================================================
 //To-do list
 
-submit.addEventListener("click", (e)=>{
-  e.preventDefault();
-  let titlec = titlec.value
-  let descc = descc.value
-  localStorage.setItem("todo", JSON.stringify([titlec,descc]))
-  console.log(e)
-  todo.innerHTML = `
-  <h1>${titlec}</h1>
-  <p>${descc}</p>
-  `
-})
+// submit.addEventListener("click", (e)=>{
+//   e.preventDefault();
+//   let titlec = titlec.value
+//   let descc = descc.value
+//   localStorage.setItem("todo", JSON.stringify([titlec,descc]))
+//   console.log(e)
+//   todo.innerHTML = `
+//   <h1>${titlec}</h1>
+//   <p>${descc}</p>
+//   `
+// })
 
-deleteBtn.addEventListener("click", (e)=>{
-  e.preventDefault();
-  localStorage.removeItem("todo")
-  todo.innerHTML = ""
+// deleteBtn.addEventListener("click", (e)=>{
+//   e.preventDefault();
+//   localStorage.removeItem("todo")
+//   todo.innerHTML = ""
   
-})
+// })
+
+
+//-----------------------Destructuring assignment and Spread Operator--------------------------
+//--------------------------------------------------------------------------------------------------------
