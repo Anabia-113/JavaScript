@@ -2217,19 +2217,21 @@ joke.innerHTML = jokes[index].joke;*/
 //======================================================Practice set chapter 12===========================================================
 //========================================================================================================================================
 //Question 1
-const a = async(text)=>{
-  return new Promise((resolve, reject)=>{
-    setTimeout(()=>{
-      resolve(text)
-    },2000)
-  })
+// const a = async(text)=>{
+//   return new Promise((resolve, reject)=>{
+//     setTimeout(()=>{
+//       resolve(text)
+//     },2000)
+//   })
 
-}
-(
-  async()=>{
-    let text = await a('hello')
-    console.log(text)
-    text = await a('world')
-    console.log(text)
-  }
-)()
+// }
+// (
+//   async()=>{
+//     let text = await a('hello')
+//     console.log(text)
+//     text = await a('world')
+//     console.log(text)
+//   }
+// )()
+
+//Question 2
