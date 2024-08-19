@@ -2260,7 +2260,7 @@ joke.innerHTML = jokes[index].joke;*/
 // )()
 
 //Question 4
-function simpleInterest(p,q,r){
-  return p*q*r/100;
-}
-console.log(simpleInterest(1000,5,1));
+// function simpleInterest(p,q,r){
+//   return p*q*r/100;
+// }
+// console.log(simpleInterest(1000,5,1));
