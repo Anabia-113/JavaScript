@@ -2260,3 +2260,6 @@ joke.innerHTML = jokes[index].joke;*/
 // )()
 
 //Question 4
+let simpleInterest(p,q,r){
+  return p*q*r/100;
+}
