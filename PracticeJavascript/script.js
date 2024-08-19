@@ -2242,19 +2242,21 @@ joke.innerHTML = jokes[index].joke;*/
 // console.log(sum(...x))
 
 //Question 3
-const a = async(text, n=2)=>{
-  return new Promise((resolve, reject)=>{
-    setTimeout(()=>{
-      resolve(text)
-    },1000*n)
-  })
+// const a = async(text, n=2)=>{
+//   return new Promise((resolve, reject)=>{
+//     setTimeout(()=>{
+//       resolve(text)
+//     },1000*n)
+//   })
 
-}
-(
-  async()=>{
-    let text = await a('I am resolving after 1 second',1)
-    console.log(text)
-    text = await a('I am resolving after 2 second',2)
-    console.log(text)
-  }
-)()
+// }
+// (
+//   async()=>{
+//     let text = await a('I am resolving after 1 second',1)
+//     console.log(text)
+//     text = await a('I am resolving after 2 second',2)
+//     console.log(text)
+//   }
+// )()
+
+//Question 4
