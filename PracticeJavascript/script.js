@@ -2235,8 +2235,10 @@ joke.innerHTML = jokes[index].joke;*/
 // )()
 
 //Question 2
-function sum(a,b,c){
-  return a+b+c
-}
-let x = [1,2,3]
-console.log(sum(...x))
+// function sum(a,b,c){
+//   return a+b+c
+// }
+// let x = [1,2,3]
+// console.log(sum(...x))
+
+//Question 3
