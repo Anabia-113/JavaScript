@@ -2252,9 +2252,9 @@ const a = async(text, n=2)=>{
 }
 (
   async()=>{
-    let text = await a('I am resolving after 1 second')
+    let text = await a('I am resolving after 1 second',1)
     console.log(text)
-    text = await a('world')
+    text = await a('I am resolving after 2 second',2)
     console.log(text)
   }
 )()
